@@ -1,0 +1,319 @@
+Log file created at: 2020/05/25 14:36:29
+Running on machine: liuligang-T470
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0525 14:36:29.621482  6301 file_configuration.cc:170] Configuration file gnss-sdr_GPS_L1_USRP_X300_realtime.conf opened with no errors
+I0525 14:36:29.625299  6301 gnss_block_factory.cc:184] Getting SignalSource with implementation UHD_Signal_Source
+I0525 14:36:38.514895  6301 uhd_signal_source.cc:153] Sampling Rate for the USRP device: 4000000.000000 [sps]...
+I0525 14:36:38.515707  6301 uhd_signal_source.cc:163] Actual USRP center freq. set to: 1575420000.010133 [Hz]...
+I0525 14:36:38.515938  6301 uhd_signal_source.cc:167] PLL Frequency tune error 0.010133 [Hz]...
+I0525 14:36:38.516672  6301 uhd_signal_source.cc:172] Actual daughterboard gain set to: 37.500000 dB...
+I0525 14:36:38.517113  6301 uhd_signal_source.cc:213] RF_channel 0Dumping output into file ./signal0521x300.dat
+I0525 14:36:38.544487  6301 uhd_signal_source.cc:215] file_sink(2)
+I0525 14:36:38.544695  6301 gnss_block_factory.cc:230] Getting SignalConditioner with DataTypeAdapter implementation: Pass_Through, InputFilter implementation: Pass_Through, and Resampler implementation: Pass_Through
+I0525 14:36:38.545110  6301 pass_through.cc:107] kludge_copy(3)
+I0525 14:36:38.545365  6301 pass_through.cc:107] kludge_copy(4)
+I0525 14:36:38.545572  6301 pass_through.cc:107] kludge_copy(5)
+I0525 14:36:38.545617  6301 gnss_block_factory.cc:260] Getting Observables with implementation Hybrid_Observables
+I0525 14:36:38.545727  6301 hybrid_observables.cc:32] role Observables
+I0525 14:36:38.548684  6301 hybrid_observables.cc:56] Observables block ID (6)
+I0525 14:36:38.548774  6301 gnss_block_factory.cc:288] Getting PVT with implementation RTKLIB_PVT
+I0525 14:36:38.549080  6301 rtklib_pvt.cc:55] role PVT
+I0525 14:36:38.551409  6301 kml_printer.cc:164] KML printer writing on ./PVT
+I0525 14:36:38.552543  6301 gpx_printer.cc:143] GPX printer writing on ./PVT
+I0525 14:36:38.553009  6301 geojson_printer.cc:155] GeoJSON printer writing on ./PVT
+I0525 14:36:38.553215  6301 nmea_printer.cc:100] NMEA printer writing on ././gnss_sdr_pvt.nmea
+I0525 14:36:38.556931  6301 rtklib_pvt.cc:788] pvt(7)
+I0525 14:36:38.557160  6301 gnss_block_factory.cc:940] Getting 8 GPS L1 C/A channels
+I0525 14:36:38.557262  6301 gnss_block_factory.cc:312] Instantiating Channel 0 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.557591  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.575402  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(8)
+I0525 14:36:38.575436  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.576122  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(9)
+I0525 14:36:38.576181  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.576462  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.576473  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.576478  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.576485  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.576495  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(10)
+I0525 14:36:38.576530  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 0
+I0525 14:36:38.576591  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 0 Log file: ./tracking_ch_0.dat
+I0525 14:36:38.576608  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 0
+I0525 14:36:38.576663  6301 channel.cc:79] Channel 0 Doppler_step = 250
+I0525 14:36:38.608358  6301 channel.cc:94] Channel 0 satellite repeat = 0
+I0525 14:36:38.608563  6301 gnss_block_factory.cc:312] Instantiating Channel 1 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.608655  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.613955  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(12)
+I0525 14:36:38.613973  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.614320  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(13)
+I0525 14:36:38.614348  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.614500  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.614506  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.614509  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.614514  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.614521  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(14)
+I0525 14:36:38.614542  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 1
+I0525 14:36:38.614574  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 1 Log file: ./tracking_ch_1.dat
+I0525 14:36:38.614578  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 1
+I0525 14:36:38.614593  6301 channel.cc:79] Channel 1 Doppler_step = 250
+I0525 14:36:38.642912  6301 channel.cc:94] Channel 1 satellite repeat = 0
+I0525 14:36:38.643064  6301 gnss_block_factory.cc:312] Instantiating Channel 2 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.643155  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.647784  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(16)
+I0525 14:36:38.647825  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.648152  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(17)
+I0525 14:36:38.648185  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.648411  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.648420  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.648425  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.648434  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.648443  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(18)
+I0525 14:36:38.648478  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 2
+I0525 14:36:38.648524  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 2 Log file: ./tracking_ch_2.dat
+I0525 14:36:38.648531  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 2
+I0525 14:36:38.648555  6301 channel.cc:79] Channel 2 Doppler_step = 250
+I0525 14:36:38.679072  6301 channel.cc:94] Channel 2 satellite repeat = 0
+I0525 14:36:38.679229  6301 gnss_block_factory.cc:312] Instantiating Channel 3 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.679322  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.684113  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(20)
+I0525 14:36:38.684134  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.684465  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(21)
+I0525 14:36:38.684492  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.684644  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.684650  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.684653  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.684659  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.684664  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(22)
+I0525 14:36:38.684686  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 3
+I0525 14:36:38.684720  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 3 Log file: ./tracking_ch_3.dat
+I0525 14:36:38.684725  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 3
+I0525 14:36:38.684757  6301 channel.cc:79] Channel 3 Doppler_step = 250
+I0525 14:36:38.715931  6301 channel.cc:94] Channel 3 satellite repeat = 0
+I0525 14:36:38.716085  6301 gnss_block_factory.cc:312] Instantiating Channel 4 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.716176  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.721293  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(24)
+I0525 14:36:38.721312  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.721637  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(25)
+I0525 14:36:38.721664  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.721822  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.721828  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.721832  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.721837  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.721843  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(26)
+I0525 14:36:38.721866  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 4
+I0525 14:36:38.721891  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 4 Log file: ./tracking_ch_4.dat
+I0525 14:36:38.721896  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 4
+I0525 14:36:38.721911  6301 channel.cc:79] Channel 4 Doppler_step = 250
+I0525 14:36:38.750147  6301 channel.cc:94] Channel 4 satellite repeat = 0
+I0525 14:36:38.750303  6301 gnss_block_factory.cc:312] Instantiating Channel 5 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.750392  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.755074  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(28)
+I0525 14:36:38.755086  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.755394  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(29)
+I0525 14:36:38.755420  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.755574  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.755581  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.755584  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.755589  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.755596  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(30)
+I0525 14:36:38.755617  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 5
+I0525 14:36:38.755645  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 5 Log file: ./tracking_ch_5.dat
+I0525 14:36:38.755650  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 5
+I0525 14:36:38.755664  6301 channel.cc:79] Channel 5 Doppler_step = 250
+I0525 14:36:38.785068  6301 channel.cc:94] Channel 5 satellite repeat = 0
+I0525 14:36:38.785214  6301 gnss_block_factory.cc:312] Instantiating Channel 6 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.785303  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.789976  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(32)
+I0525 14:36:38.789995  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.790309  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(33)
+I0525 14:36:38.790334  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.790491  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.790513  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.790516  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.790524  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.790529  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(34)
+I0525 14:36:38.790552  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 6
+I0525 14:36:38.790580  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 6 Log file: ./tracking_ch_6.dat
+I0525 14:36:38.790585  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 6
+I0525 14:36:38.790598  6301 channel.cc:79] Channel 6 Doppler_step = 250
+I0525 14:36:38.824518  6301 channel.cc:94] Channel 6 satellite repeat = 0
+I0525 14:36:38.824733  6301 gnss_block_factory.cc:312] Instantiating Channel 7 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisition, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I0525 14:36:38.824867  6301 gps_l1_ca_pcps_acquisition.cc:48] role Acquisition_1C
+I0525 14:36:38.831804  6301 gps_l1_ca_pcps_acquisition.cc:67] acquisition(36)
+I0525 14:36:38.831830  6301 gps_l1_ca_dll_pll_tracking.cc:41] role Tracking_1C
+I0525 14:36:38.832314  6301 gps_l1_ca_dll_pll_tracking.cc:83] tracking(37)
+I0525 14:36:38.832353  6301 gps_l1_ca_telemetry_decoder.cc:35] role TelemetryDecoder_1C
+I0525 14:36:38.832592  6301 gnss_satellite.cc:136] System  is not defined {GPS, Glonass, SBAS, Galileo, Beidou}. Initialization?
+I0525 14:36:38.832602  6301 gnss_satellite.cc:170] Trying to define PRN while system is not defined
+I0525 14:36:38.832607  6301 gnss_satellite.cc:256] System  is not defined
+I0525 14:36:38.832614  6301 gps_l1_ca_telemetry_decoder_gs.cc:66] Initializing GPS L1 TELEMETRY DECODER
+I0525 14:36:38.832623  6301 gps_l1_ca_telemetry_decoder.cc:40] telemetry_decoder(38)
+I0525 14:36:38.832660  6301 dll_pll_veml_tracking.cc:1550] Tracking Channel set to 7
+I0525 14:36:38.832701  6301 dll_pll_veml_tracking.cc:1566] Tracking dump enabled on channel 7 Log file: ./tracking_ch_7.dat
+I0525 14:36:38.832710  6301 gps_l1_ca_telemetry_decoder_gs.cc:174] Navigation channel set to 7
+I0525 14:36:38.832732  6301 channel.cc:79] Channel 7 Doppler_step = 250
+I0525 14:36:38.867527  6301 channel.cc:94] Channel 7 satellite repeat = 0
+I0525 14:36:38.867679  6301 gnss_block_factory.cc:970] Getting 0 GPS L2C (M) channels
+I0525 14:36:38.867697  6301 gnss_block_factory.cc:999] Getting 0 GPS L5 channels
+I0525 14:36:38.867707  6301 gnss_block_factory.cc:1028] Getting 0 GALILEO E1 B (I/NAV OS) channels
+I0525 14:36:38.867717  6301 gnss_block_factory.cc:1057] Getting 0 GALILEO E5a I (F/NAV OS) channels
+I0525 14:36:38.867724  6301 gnss_block_factory.cc:1086] Getting 0 GLONASS L1 C/A channels
+I0525 14:36:38.867733  6301 gnss_block_factory.cc:1116] Getting 0 GLONASS L2 C/A channels
+I0525 14:36:38.867743  6301 gnss_block_factory.cc:1146] Getting 0 BEIDOU B1I channels
+I0525 14:36:38.867750  6301 gnss_block_factory.cc:1176] Getting 0 BEIDOU B3I channels
+I0525 14:36:38.868589  6301 gnss_flowgraph.cc:1877] Channel 0 in state 1
+I0525 14:36:38.868615  6301 gnss_flowgraph.cc:1877] Channel 1 in state 0
+I0525 14:36:38.868620  6301 gnss_flowgraph.cc:1877] Channel 2 in state 0
+I0525 14:36:38.868624  6301 gnss_flowgraph.cc:1877] Channel 3 in state 0
+I0525 14:36:38.868628  6301 gnss_flowgraph.cc:1877] Channel 4 in state 0
+I0525 14:36:38.868630  6301 gnss_flowgraph.cc:1877] Channel 5 in state 0
+I0525 14:36:38.868634  6301 gnss_flowgraph.cc:1877] Channel 6 in state 0
+I0525 14:36:38.868638  6301 gnss_flowgraph.cc:1877] Channel 7 in state 0
+I0525 14:36:38.868641  6301 gnss_flowgraph.cc:1880] 1 channels in acquisition state
+I0525 14:36:38.868646  6301 gnss_flowgraph.cc:1580] Blocks instantiated. 8 channels.
+I0525 14:36:38.868717  6301 gnss_flowgraph.cc:121] Connecting flowgraph
+I0525 14:36:38.868762  6301 uhd_signal_source.cc:248] connected usrp source to file sink RF Channel 0
+I0525 14:36:38.868826  6301 pass_through.cc:126] nothing to connect internally
+I0525 14:36:38.868834  6301 pass_through.cc:126] nothing to connect internally
+I0525 14:36:38.868837  6301 pass_through.cc:126] nothing to connect internally
+I0525 14:36:38.868849  6301 signal_conditioner.cc:58] data_type_adapter -> input_filter
+I0525 14:36:38.868857  6301 signal_conditioner.cc:61] input_filter -> resampler
+I0525 14:36:38.868865  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.868891  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.868906  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.868921  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.868932  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.868943  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.868959  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.868973  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.868983  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.868996  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.869006  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.869019  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.869035  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.869050  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.869060  6301 gps_l1_ca_telemetry_decoder.cc:67] nothing to connect internally
+I0525 14:36:38.869072  6301 channel.cc:124] tracking -> telemetry_decoder
+I0525 14:36:38.869083  6301 hybrid_observables.cc:66] nothing to connect internally
+I0525 14:36:38.869087  6301 rtklib_pvt.cc:854] nothing to connect internally
+I0525 14:36:38.869091  6301 gnss_flowgraph.cc:206] blocks connected internally
+I0525 14:36:38.869107  6301 gnss_flowgraph.cc:238] sig_source_.at(i)->get_right_block()->output_signature()->max_streams()=1
+I0525 14:36:38.869113  6301 gnss_flowgraph.cc:239] sig_conditioner_.at(signal_conditioner_ID)->get_left_block()->input_signature()=-1
+I0525 14:36:38.869118  6301 gnss_flowgraph.cc:254] connecting sig_source_ 0 stream 0 to conditioner 0
+I0525 14:36:38.869128  6301 gnss_flowgraph.cc:276] Signal source connected to signal conditioner
+I0525 14:36:38.869311  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 0
+I0525 14:36:38.869361  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 1
+I0525 14:36:38.869400  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 2
+I0525 14:36:38.869437  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 3
+I0525 14:36:38.869472  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 4
+I0525 14:36:38.869504  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 5
+I0525 14:36:38.869541  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 6
+I0525 14:36:38.869575  6301 gnss_flowgraph.cc:519] signal conditioner 0 connected to channel 7
+I0525 14:36:38.871942  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 01 (Block IIF)
+I0525 14:36:38.871961  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 01 (Block IIF)
+I0525 14:36:38.871964  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 01 (Block IIF)
+I0525 14:36:38.873939  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 02 (Block IIR)
+I0525 14:36:38.873951  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 02 (Block IIR)
+I0525 14:36:38.873955  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 02 (Block IIR)
+I0525 14:36:38.875876  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 03 (Block IIF)
+I0525 14:36:38.875910  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 03 (Block IIF)
+I0525 14:36:38.875913  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 03 (Block IIF)
+I0525 14:36:38.877816  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 04 (Block Unknown)
+I0525 14:36:38.877823  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:36:38.877826  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:36:38.879736  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 05 (Block IIR-M)
+I0525 14:36:38.879743  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:36:38.879746  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:36:38.881640  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 06 (Block IIF)
+I0525 14:36:38.881646  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 06 (Block IIF)
+I0525 14:36:38.881649  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 06 (Block IIF)
+I0525 14:36:38.883591  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 07 (Block IIR-M)
+I0525 14:36:38.883599  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:36:38.883601  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:36:38.885507  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 08 (Block IIF)
+I0525 14:36:38.885514  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 08 (Block IIF)
+I0525 14:36:38.885516  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 08 (Block IIF)
+I0525 14:36:38.885596  6301 gnss_flowgraph.cc:713] Channel 0 assigned to GPS PRN 01 (Block IIF) Signal 1C
+I0525 14:36:38.885612  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 01 (Block IIF)
+I0525 14:36:38.885614  6301 channel_fsm.cc:89] CH = 0. Ev start acquisition
+I0525 14:36:38.885617  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:36:38.885620  6301 gnss_flowgraph.cc:717] Channel 0 connected to observables and ready for acquisition
+I0525 14:36:38.885628  6301 gnss_flowgraph.cc:713] Channel 1 assigned to GPS PRN 02 (Block IIR) Signal 1C
+I0525 14:36:38.885638  6301 gnss_flowgraph.cc:721] Channel 1 connected to observables in standby mode
+I0525 14:36:38.885646  6301 gnss_flowgraph.cc:713] Channel 2 assigned to GPS PRN 03 (Block IIF) Signal 1C
+I0525 14:36:38.885656  6301 gnss_flowgraph.cc:721] Channel 2 connected to observables in standby mode
+I0525 14:36:38.885663  6301 gnss_flowgraph.cc:713] Channel 3 assigned to GPS PRN 04 (Block Unknown) Signal 1C
+I0525 14:36:38.885673  6301 gnss_flowgraph.cc:721] Channel 3 connected to observables in standby mode
+I0525 14:36:38.885680  6301 gnss_flowgraph.cc:713] Channel 4 assigned to GPS PRN 05 (Block IIR-M) Signal 1C
+I0525 14:36:38.885690  6301 gnss_flowgraph.cc:721] Channel 4 connected to observables in standby mode
+I0525 14:36:38.885697  6301 gnss_flowgraph.cc:713] Channel 5 assigned to GPS PRN 06 (Block IIF) Signal 1C
+I0525 14:36:38.885707  6301 gnss_flowgraph.cc:721] Channel 5 connected to observables in standby mode
+I0525 14:36:38.885715  6301 gnss_flowgraph.cc:713] Channel 6 assigned to GPS PRN 07 (Block IIR-M) Signal 1C
+I0525 14:36:38.885725  6301 gnss_flowgraph.cc:721] Channel 6 connected to observables in standby mode
+I0525 14:36:38.885732  6301 gnss_flowgraph.cc:713] Channel 7 assigned to GPS PRN 08 (Block IIF) Signal 1C
+I0525 14:36:38.885741  6301 gnss_flowgraph.cc:721] Channel 7 connected to observables in standby mode
+I0525 14:36:38.885761  6301 gnss_flowgraph.cc:726] Flowgraph connected
+I0525 14:36:38.885767  6301 control_thread.cc:304] Flowgraph connected
+I0525 14:36:38.890851  6301 control_thread.cc:315] Flowgraph started
+I0525 14:36:38.897321  6357 pcps_acquisition.cc:640] Channel: 0 , doing acquisition of satellite: G 1 ,sample stamp: 4313, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:36:38.901994  6357 pcps_acquisition.cc:394] negative acquisition, satellite G 1, sample_stamp 4313, test statistics value 30.7623, test statistics threshold 40.6733, code phase 1945, doppler 8750, magnitude 0, input signal power 8.26092e+08
+I0525 14:36:38.902727  6326 channel_fsm.cc:131] CH = 0. Ev failed acquisition no repeat
+I0525 14:36:38.902741  6301 control_thread.cc:240] New channel event rx from ch id: 0 what: 0
+I0525 14:36:38.902755  6301 gnss_flowgraph.cc:1283] Received 0 from 0
+I0525 14:36:38.902824  6301 gnss_flowgraph.cc:1301] Channel 0 ACQ FAILED satellite GPS PRN 01 (Block IIF), Signal 1C
+I0525 14:36:38.905050  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 09 (Block IIF)
+I0525 14:36:38.905069  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 09 (Block IIF)
+I0525 14:36:38.905076  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 09 (Block IIF)
+I0525 14:36:38.905104  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:36:38.905117  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 09 (Block IIF)
+I0525 14:36:38.905120  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:36:38.905122  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:36:38.905128  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:36:38.905144  6301 gnss_flowgraph.cc:1252] Channel 2 in state 0
+I0525 14:36:38.905153  6301 gnss_flowgraph.cc:1252] Channel 3 in state 0
+I0525 14:36:38.905169  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:36:38.905179  6301 gnss_flowgraph.cc:1252] Channel 5 in state 0
+I0525 14:36:38.905189  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:36:38.905196  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:36:38.905202  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:36:38.905858  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 9 ,sample stamp: 30146, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:36:38.909060  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 9, sample_stamp 30146, test statistics value 26.756, test statistics threshold 40.6733, code phase 2127, doppler -6000, magnitude 0, input signal power 9.07636e+07
+I0525 14:36:38.909150  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:36:38.909171  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:36:38.909180  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:36:38.909234  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:36:38.911857  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 10 (Block IIF)
+I0525 14:36:38.911870  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 10 (Block IIF)
+I0525 14:36:38.911873  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 10 (Block IIF)
+I0525 14:36:38.911909  6301 gnss_flowgraph.cc:1223] Channel 2 Starting acquisition GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:36:38.911922  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 10 (Block IIF)
+I0525 14:36:38.911927  6301 channel_fsm.cc:89] CH = 2. Ev start acquisition
+I0525 14:36:38.911931  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:36:38.911960  6301 gnss_flowgraph.cc:1252] Channel 2 in state 1
+I0525 14:36:38.911984  6301 gnss_flowgraph.cc:1252] Channel 3 in state 0
+I0525 14:36:38.911993  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:36:38.912003  6301 gnss_flowgraph.cc:1252] Channel 5 in state 0
+I0525 14:36:38.912010  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:36:38.912019  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:36:38.912029  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:36:38.912036  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:36:38.912341  6349 pcps_acquisition.cc:640] Channel: 2 , doing acquisition of satellite: G 10 ,sample stamp: 43345, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:36:38.916640  6349 pcps_acquisition.cc:394] negative acquisition, satellite G 10, sample_stamp 43345, test statistics value 28.8066, test statistics threshold 40.6733, code phase 3905, doppler -10000, magnitude 0, input signal power 6.90873e+07
+I0525 14:36:38.916723  6324 channel_fsm.cc:131] CH = 2. Ev failed acquisition no repeat
+I0525 14:36:38.916728  6301 control_thread.cc:240] New channel event rx from ch id: 2 what: 0
+I0525 14:36:38.916738  6301 gnss_flowgraph.cc:1283] Received 0 from 2
+I0525 14:36:38.916793  6301 gnss_flowgraph.cc:1301] Channel 2 ACQ FAILED satellite GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:36:38.920262  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 11 (Block IIR)
+I0525 14:36:38.920279  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 11 (Block IIR)
+I0525 14:36:38.920284  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 11 (Block IIR)
+I0525 14:36:38.920316  6301 gnss_flowgraph.cc:1223] Channel 3 Starting acquisition GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:36:38.920333  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 11 (Block IIR)
+I0525 14:36:38.920343  6301 channel_fsm.cc:89] CH = 3. Ev start acquisition
+I0525 14:36:38.920351  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:36:38.920357  6301 gnss_flowgraph.cc:1252] Channel 3 in state 1
+I0525 14:36:38.920377  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:36:38.920388  6301 gnss_flowgraph.cc:1252] Channel 5 in state 0
+I0525 14:36:38.920398  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:36:38.920409  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:36:38.920420  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:36:38.920430  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:36:38.920439  6301 gnss_flowgraph.cc:1252] Channel 2 in state 0
