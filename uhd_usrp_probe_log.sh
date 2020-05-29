@@ -20,8 +20,8 @@ linux; GNU C++ version 5.3.1 20151219; Boost_105800; UHD_003.009.002-0-unknown
 |   |   revision: 11
 |   |   revision_compat: 7
 |   |   product: 30809
-|   |   mac-addr0: 00:80:2f:18:ee:7e
-|   |   mac-addr1: 00:80:2f:18:ee:7f
+|   |   mac-addr0: 00:80:xx:18:xx:xx
+|   |   mac-addr1: 00:80:xx:xx:xx:xx
 |   |   gateway: 192.168.10.1
 |   |   ip-addr0: 192.168.10.2
 |   |   subnet0: 255.255.255.0
@@ -31,7 +31,7 @@ linux; GNU C++ version 5.3.1 20151219; Boost_105800; UHD_003.009.002-0-unknown
 |   |   subnet2: 255.255.255.0
 |   |   ip-addr3: 192.168.40.2
 |   |   subnet3: 255.255.255.0
-|   |   serial: 314DFBF
+|   |   serial: XXXXXXX
 |   |   FW Version: 4.0
 |   |   FPGA Version: 19.0
 |   |   
@@ -100,7 +100,7 @@ linux; GNU C++ version 5.3.1 20151219; Boost_105800; UHD_003.009.002-0-unknown
 |   |    /
 |   |   |       TX Dboard: A
 |   |   |   ID: CBX (0x0066)
-|   |   |   Serial: 313BF42
+|   |   |   Serial: XXXXXXX
 |   |   |     _____________________________________________________
 |   |   |    /
 |   |   |   |       TX Frontend: 0
