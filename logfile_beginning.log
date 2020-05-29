@@ -1,5 +1,5 @@
 Log file created at: 2020/05/25 14:36:29
-Running on machine: liuligang-T470
+Running on machine: Lenovo-T470
 Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
 I0525 14:36:29.621482  6301 file_configuration.cc:170] Configuration file gnss-sdr_GPS_L1_USRP_X300_realtime.conf opened with no errors
 I0525 14:36:29.625299  6301 gnss_block_factory.cc:184] Getting SignalSource with implementation UHD_Signal_Source
