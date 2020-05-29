@@ -8,7 +8,7 @@ Device Address:
     addr: 192.168.10.2
     fpga: HGS
     name: 
-    serial: 314DFBF
+    serial: XXXXXXX
     product: X310
 
 
@@ -20,7 +20,7 @@ Device Address:
     addr: 192.168.10.2
     fpga: HGS
     name: 
-    serial: 314DFBF
+    serial: XXXXXXX
     product: X310
 
 
