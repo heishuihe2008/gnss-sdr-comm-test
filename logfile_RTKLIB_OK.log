@@ -1,0 +1,1620 @@
+I0525 14:38:30.072789  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.075381  6356 rtklib_pvt_gs.cc:1050] Ephemeris record has arrived from SAT ID 17 (Block IIR-M)inserted with Toe=115200 and GPS Week=59
+I0525 14:38:30.075482  6356 rtklib_pvt_gs.cc:1050] Ephemeris record has arrived from SAT ID 22 (Block IIR)inserted with Toe=115200 and GPS Week=59
+I0525 14:38:30.075943  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 04 (Block Unknown)
+I0525 14:38:30.075953  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:38:30.075958  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:38:30.075984  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 04 (Block Unknown), Signal 1C
+I0525 14:38:30.075997  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 04 (Block Unknown)
+I0525 14:38:30.076001  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.076006  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.076020  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.076359  6351 gps_l1_ca_telemetry_decoder_gs.cc:427] Preamble received for SAT GPS PRN 06 (Block IIF)d_sample_counter=3374
+I0525 14:38:30.076542  6356 rtklib_pvt_gs.cc:1050] Ephemeris record has arrived from SAT ID 6 (Block IIF)inserted with Toe=115200 and GPS Week=59
+I0525 14:38:30.079772  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 4 ,sample stamp: 427112841, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.086299  6356 rtklib_solver.cc:985] RTKLIB Position at RX TOW = 110328 in ECEF (X,Y,Z,t[meters]) =   -2.8458e+06
+   4.6592e+06
+   3.2867e+06
+  -7.1738e-02
+I0525 14:38:30.088373  6356 rtklib_solver.cc:999] RTKLIB Position at 2020-May-25 06:38:29.840000 is Lat = 13.2184 [deg], Long = 37.416 [deg], Height= 100.526 [m] RX time offset= -0.0717383 [s]
+I0525 14:38:30.088730  6355 hybrid_observables_gs.cc:200] Corrected new RX Time offset: -72[ms]
+I0525 14:38:30.088753  6356 rtklib_pvt_gs.cc:2111] Sent clock offset correction to observables: -0.0717383[s]
+I0525 14:38:30.094460  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 4, sample_stamp 427112841, test statistics value 24.6774, test statistics threshold 40.6733, code phase 351, doppler -3500, magnitude 0, input signal power 3.83141e+07
+I0525 14:38:30.094557  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.094580  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.094589  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.094656  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 04 (Block Unknown), Signal 1C
+I0525 14:38:30.094691  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.094702  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.094710  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.094719  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.094730  6301 gnss_flowgraph.cc:1252] Channel 4 in state 2
+I0525 14:38:30.094753  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.094830  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.099261  6336 gps_l1_ca_telemetry_decoder_gs.cc:427] Preamble received for SAT GPS PRN 01 (Block IIF)d_sample_counter=3361
+I0525 14:38:30.099488  6356 rtklib_pvt_gs.cc:1050] Ephemeris record has arrived from SAT ID 1 (Block IIF)inserted with Toe=115200 and GPS Week=59
+I0525 14:38:30.105851  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.105872  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.105877  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.105906  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 05 (Block IIR-M), Signal 1C
+I0525 14:38:30.105918  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.105923  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.105927  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.105934  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.111016  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 5 ,sample stamp: 427272841, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.120782  6350 dll_pll_veml_tracking.cc:891] Loss of lock in channel 1 (carrier_lock_fail_counter:5001 code_lock_fail_counter : 0)
+I0525 14:38:30.120872  6325 channel_fsm.cc:145] CH = 1. Ev failed tracking standby
+I0525 14:38:30.120887  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 2
+I0525 14:38:30.120895  6301 gnss_flowgraph.cc:1283] Received 2 from 1
+I0525 14:38:30.120957  6301 gnss_flowgraph.cc:1332] Channel 1 TRK FAILED satellite GPS PRN 06 (Block IIF)
+I0525 14:38:30.120968  6301 gnss_flowgraph.cc:1351] Channel 1 Idle state
+I0525 14:38:30.124028  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 5, sample_stamp 427272841, test statistics value 28.407, test statistics threshold 40.6733, code phase 1393, doppler -9000, magnitude 0, input signal power 3.89558e+07
+I0525 14:38:30.124097  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.124121  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.124127  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.124176  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 05 (Block IIR-M), Signal 1C
+I0525 14:38:30.124217  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.126667  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.126679  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.126684  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.126713  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 07 (Block IIR-M), Signal 1C
+I0525 14:38:30.126765  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.126770  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.126775  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.126781  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.126801  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.126811  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.126821  6301 gnss_flowgraph.cc:1252] Channel 4 in state 2
+I0525 14:38:30.126829  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.126838  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.126847  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.129616  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 7 ,sample stamp: 427353341, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.134640  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 7, sample_stamp 427353341, test statistics value 31.1696, test statistics threshold 40.6733, code phase 2532, doppler -250, magnitude 0, input signal power 3.59639e+07
+I0525 14:38:30.134727  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.134740  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.134749  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.134802  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 07 (Block IIR-M), Signal 1C
+I0525 14:38:30.134963  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.134976  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.134985  6301 gnss_flowgraph.cc:1252] Channel 4 in state 2
+I0525 14:38:30.134994  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.135004  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.140229  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 30 (Block IIF)
+I0525 14:38:30.140244  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 30 (Block IIF)
+I0525 14:38:30.140249  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 30 (Block IIF)
+I0525 14:38:30.140277  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 30 (Block IIF), Signal 1C
+I0525 14:38:30.140290  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 30 (Block IIF)
+I0525 14:38:30.140295  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.140300  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.140306  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.140324  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.140332  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.142926  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 30 ,sample stamp: 427405683, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.156206  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 30, sample_stamp 427405683, test statistics value 25.7147, test statistics threshold 40.6733, code phase 3373, doppler 4750, magnitude 0, input signal power 3.62684e+07
+I0525 14:38:30.156320  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.156335  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.156347  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.156399  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 30 (Block IIF), Signal 1C
+I0525 14:38:30.156414  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.158751  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 08 (Block IIF)
+I0525 14:38:30.158761  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 08 (Block IIF)
+I0525 14:38:30.158766  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 08 (Block IIF)
+I0525 14:38:30.158794  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 08 (Block IIF), Signal 1C
+I0525 14:38:30.158807  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 08 (Block IIF)
+I0525 14:38:30.158812  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.158816  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.158823  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.158838  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.158847  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.158856  6301 gnss_flowgraph.cc:1252] Channel 4 in state 2
+I0525 14:38:30.158864  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.158874  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.158882  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.160774  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 8 ,sample stamp: 427489683, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.166538  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 8, sample_stamp 427489683, test statistics value 25.8783, test statistics threshold 40.6733, code phase 2503, doppler 7750, magnitude 0, input signal power 3.55915e+07
+I0525 14:38:30.168442  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.168454  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.168463  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.168520  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 08 (Block IIF), Signal 1C
+I0525 14:38:30.168535  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.168545  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.168552  6301 gnss_flowgraph.cc:1252] Channel 4 in state 2
+I0525 14:38:30.168563  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.168572  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.170987  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 09 (Block IIF)
+I0525 14:38:30.170997  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 09 (Block IIF)
+I0525 14:38:30.171002  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 09 (Block IIF)
+I0525 14:38:30.171030  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:38:30.171043  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 09 (Block IIF)
+I0525 14:38:30.171048  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.171052  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.171059  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.171072  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.171082  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.173709  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 9 ,sample stamp: 427553683, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.178968  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 9, sample_stamp 427553683, test statistics value 26.7113, test statistics threshold 40.6733, code phase 492, doppler 6500, magnitude 0, input signal power 3.67399e+07
+I0525 14:38:30.179040  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.179069  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.179075  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.179131  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:38:30.179147  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.181577  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 10 (Block IIF)
+I0525 14:38:30.181586  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 10 (Block IIF)
+I0525 14:38:30.181591  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 10 (Block IIF)
+I0525 14:38:30.181620  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:38:30.181633  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 10 (Block IIF)
+I0525 14:38:30.181638  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.181643  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.181649  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.181661  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.181670  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.181679  6301 gnss_flowgraph.cc:1252] Channel 4 in state 2
+I0525 14:38:30.181689  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.181696  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.181705  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.182438  6341 dll_pll_veml_tracking.cc:891] Loss of lock in channel 4 (carrier_lock_fail_counter:5001 code_lock_fail_counter : 0)
+I0525 14:38:30.182510  6322 channel_fsm.cc:145] CH = 4. Ev failed tracking standby
+I0525 14:38:30.182710  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 2
+I0525 14:38:30.182720  6301 gnss_flowgraph.cc:1283] Received 2 from 4
+I0525 14:38:30.182762  6301 gnss_flowgraph.cc:1332] Channel 4 TRK FAILED satellite GPS PRN 19 (Block IIR)
+I0525 14:38:30.182770  6301 gnss_flowgraph.cc:1351] Channel 4 Idle state
+I0525 14:38:30.183185  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 10 ,sample stamp: 427588841, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.191164  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 10, sample_stamp 427588841, test statistics value 24.0359, test statistics threshold 40.6733, code phase 3110, doppler 6250, magnitude 0, input signal power 3.82354e+07
+I0525 14:38:30.191247  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.191263  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.191272  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.191329  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:38:30.191344  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.191354  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.193109  6335 dll_pll_veml_tracking.cc:891] Loss of lock in channel 6 (carrier_lock_fail_counter:5001 code_lock_fail_counter : 0)
+I0525 14:38:30.193159  6320 channel_fsm.cc:145] CH = 6. Ev failed tracking standby
+I0525 14:38:30.196858  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 11 (Block IIR)
+I0525 14:38:30.196878  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 11 (Block IIR)
+I0525 14:38:30.196956  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 11 (Block IIR)
+I0525 14:38:30.196987  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:38:30.197038  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 11 (Block IIR)
+I0525 14:38:30.197046  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.197048  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.197057  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.197105  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.197129  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.197141  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.197154  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.197166  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.197618  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 2
+I0525 14:38:30.197629  6301 gnss_flowgraph.cc:1283] Received 2 from 6
+I0525 14:38:30.197674  6301 gnss_flowgraph.cc:1332] Channel 6 TRK FAILED satellite GPS PRN 01 (Block IIF)
+I0525 14:38:30.197683  6301 gnss_flowgraph.cc:1351] Channel 6 Idle state
+I0525 14:38:30.199829  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 11 ,sample stamp: 427756379, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.204347  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 11, sample_stamp 427756379, test statistics value 20.8897, test statistics threshold 40.6733, code phase 1681, doppler 9000, magnitude 0, input signal power 3.68488e+07
+I0525 14:38:30.204483  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.204499  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.204509  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.204561  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:38:30.204576  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.206960  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.206970  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.206975  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.207002  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 12 (Block IIR-M), Signal 1C
+I0525 14:38:30.207046  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.207051  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.207056  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.207062  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.207074  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.207083  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.207093  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.207101  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.207110  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.207118  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.208186  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 12 ,sample stamp: 427801191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.212859  6337 pcps_acquisition.cc:394] negative acquisition, satellite G 12, sample_stamp 427801191, test statistics value 25.0778, test statistics threshold 40.6733, code phase 2567, doppler -8000, magnitude 0, input signal power 3.86108e+07
+I0525 14:38:30.212949  6320 channel_fsm.cc:131] CH = 6. Ev failed acquisition no repeat
+I0525 14:38:30.212978  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 0
+I0525 14:38:30.213024  6301 gnss_flowgraph.cc:1283] Received 0 from 6
+I0525 14:38:30.213083  6301 gnss_flowgraph.cc:1301] Channel 6 ACQ FAILED satellite GPS PRN 12 (Block IIR-M), Signal 1C
+I0525 14:38:30.215991  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 13 (Block IIR)
+I0525 14:38:30.216017  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 13 (Block IIR)
+I0525 14:38:30.216022  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 13 (Block IIR)
+I0525 14:38:30.216051  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 13 (Block IIR), Signal 1C
+I0525 14:38:30.216064  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 13 (Block IIR)
+I0525 14:38:30.216069  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.216073  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.216079  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.216099  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.216107  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.216116  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.216125  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.216132  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.216140  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.216150  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.217803  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 13 ,sample stamp: 427813191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.221696  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 13, sample_stamp 427813191, test statistics value 22.056, test statistics threshold 40.6733, code phase 3399, doppler -10000, magnitude 0, input signal power 4.04869e+07
+I0525 14:38:30.221755  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.222764  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.222779  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.222857  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 13 (Block IIR), Signal 1C
+I0525 14:38:30.222878  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.226197  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 14 (Block IIR)
+I0525 14:38:30.226210  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 14 (Block IIR)
+I0525 14:38:30.226215  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 14 (Block IIR)
+I0525 14:38:30.226258  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 14 (Block IIR), Signal 1C
+I0525 14:38:30.226272  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 14 (Block IIR)
+I0525 14:38:30.226277  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.226281  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.226289  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.226305  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.226313  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.226322  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.226331  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.226341  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.226348  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.227222  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 14 ,sample stamp: 427901191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.231943  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 14, sample_stamp 427901191, test statistics value 23.4024, test statistics threshold 40.6733, code phase 1823, doppler 9250, magnitude 0, input signal power 3.83144e+07
+I0525 14:38:30.232046  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.232059  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.232067  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.232110  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 14 (Block IIR), Signal 1C
+I0525 14:38:30.232121  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.232127  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.234421  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.234431  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.234436  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.234464  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 15 (Block IIR-M), Signal 1C
+I0525 14:38:30.234477  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.234479  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.234483  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.234486  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.234496  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.234503  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.234508  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.234514  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.234519  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.236593  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 15 ,sample stamp: 427913191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.241573  6356 rtklib_solver.cc:985] RTKLIB Position at RX TOW = 110328 in ECEF (X,Y,Z,t[meters]) =   -2.8458e+06
+   4.6592e+06
+   3.2867e+06
+   8.2617e-03
+I0525 14:38:30.241638  6356 rtklib_solver.cc:999] RTKLIB Position at 2020-May-25 06:38:30.120000 is Lat = 13.2185 [deg], Long = 37.416 [deg], Height= 88.9023 [m] RX time offset= 0.00826168 [s]
+I0525 14:38:30.241664  6356 rtklib_pvt_gs.cc:1960] initialized carrier phase at channel 1
+I0525 14:38:30.241672  6356 rtklib_pvt_gs.cc:1960] initialized carrier phase at channel 3
+I0525 14:38:30.241677  6356 rtklib_pvt_gs.cc:1960] initialized carrier phase at channel 4
+I0525 14:38:30.241683  6356 rtklib_pvt_gs.cc:1960] initialized carrier phase at channel 5
+I0525 14:38:30.241690  6356 rtklib_pvt_gs.cc:1960] initialized carrier phase at channel 6
+I0525 14:38:30.241694  6356 rtklib_pvt_gs.cc:2186] Rx clock offset at interpolated RX time: 8.26168[s] at RX time: 110328120 [ms]
+I0525 14:38:30.242168  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 15, sample_stamp 427913191, test statistics value 25.9076, test statistics threshold 40.6733, code phase 3921, doppler -1250, magnitude 0, input signal power 3.94968e+07
+I0525 14:38:30.243432  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.245220  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.245232  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.245290  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 15 (Block IIR-M), Signal 1C
+I0525 14:38:30.245311  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.248883  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 16 (Block IIR)
+I0525 14:38:30.248898  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 16 (Block IIR)
+I0525 14:38:30.248904  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 16 (Block IIR)
+I0525 14:38:30.248965  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 16 (Block IIR), Signal 1C
+I0525 14:38:30.248991  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 16 (Block IIR)
+I0525 14:38:30.248997  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.249002  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.249011  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.249029  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.249040  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.249050  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.249061  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.249071  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.249083  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.259979  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 16 ,sample stamp: 427957191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.264439  6337 pcps_acquisition.cc:394] negative acquisition, satellite G 16, sample_stamp 427957191, test statistics value 24.4311, test statistics threshold 40.6733, code phase 1630, doppler 5000, magnitude 0, input signal power 3.87254e+07
+I0525 14:38:30.264515  6320 channel_fsm.cc:131] CH = 6. Ev failed acquisition no repeat
+I0525 14:38:30.264612  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 0
+I0525 14:38:30.264623  6301 gnss_flowgraph.cc:1283] Received 0 from 6
+I0525 14:38:30.264704  6301 gnss_flowgraph.cc:1301] Channel 6 ACQ FAILED satellite GPS PRN 16 (Block IIR), Signal 1C
+I0525 14:38:30.271384  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 18 (Block IIR)
+I0525 14:38:30.271407  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 18 (Block IIR)
+I0525 14:38:30.271414  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 18 (Block IIR)
+I0525 14:38:30.271450  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 18 (Block IIR), Signal 1C
+I0525 14:38:30.271466  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 18 (Block IIR)
+I0525 14:38:30.271472  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.271477  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.271486  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.271541  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.271553  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.271564  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.274776  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.274816  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.274827  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.274837  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.276095  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 18 ,sample stamp: 427997191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.283845  6356 rtklib_solver.cc:985] RTKLIB Position at RX TOW = 110328 in ECEF (X,Y,Z,t[meters]) =   -2.8458e+06
+   4.6592e+06
+   3.2867e+06
+   8.2617e-03
+I0525 14:38:30.283919  6356 rtklib_solver.cc:999] RTKLIB Position at 2020-May-25 06:38:30.140000 is Lat = 13.2185 [deg], Long = 37.416 [deg], Height= 89.0204 [m] RX time offset= 0.00826168 [s]
+I0525 14:38:30.283946  6356 rtklib_pvt_gs.cc:2186] Rx clock offset at interpolated RX time: 8.26168[s] at RX time: 110328140 [ms]
+I0525 14:38:30.284271  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 18, sample_stamp 427997191, test statistics value 25.585, test statistics threshold 40.6733, code phase 2794, doppler -2750, magnitude 0, input signal power 3.82622e+07
+I0525 14:38:30.284397  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.284425  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.284432  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.284648  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 18 (Block IIR), Signal 1C
+I0525 14:38:30.284670  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.290573  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 20 (Block IIR)
+I0525 14:38:30.290588  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 20 (Block IIR)
+I0525 14:38:30.290594  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 20 (Block IIR)
+I0525 14:38:30.290629  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 20 (Block IIR), Signal 1C
+I0525 14:38:30.290644  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 20 (Block IIR)
+I0525 14:38:30.290649  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.290654  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.290663  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.290706  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.290719  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.290729  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.290740  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.290750  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.290760  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.294528  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 20 ,sample stamp: 428025191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.301038  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 20, sample_stamp 428025191, test statistics value 23.522, test statistics threshold 40.6733, code phase 2104, doppler 6250, magnitude 0, input signal power 3.50567e+07
+I0525 14:38:30.301132  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.304122  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.304137  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.304219  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 20 (Block IIR), Signal 1C
+I0525 14:38:30.304239  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.304251  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.307792  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 21 (Block IIR)
+I0525 14:38:30.307807  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 21 (Block IIR)
+I0525 14:38:30.307813  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 21 (Block IIR)
+I0525 14:38:30.307854  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 21 (Block IIR), Signal 1C
+I0525 14:38:30.307871  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 21 (Block IIR)
+I0525 14:38:30.307878  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.307884  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.307893  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.307912  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.307925  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.307937  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.307950  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.307994  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.313180  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 21 ,sample stamp: 428041191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.317852  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 21, sample_stamp 428041191, test statistics value 29.0902, test statistics threshold 40.6733, code phase 2042, doppler -9750, magnitude 0, input signal power 3.78264e+07
+I0525 14:38:30.317963  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.317984  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.317999  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.318094  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 21 (Block IIR), Signal 1C
+I0525 14:38:30.318118  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.321882  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 23 (Block IIR)
+I0525 14:38:30.321895  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 23 (Block IIR)
+I0525 14:38:30.321902  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 23 (Block IIR)
+I0525 14:38:30.321947  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 23 (Block IIR), Signal 1C
+I0525 14:38:30.321966  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 23 (Block IIR)
+I0525 14:38:30.321974  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.321979  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.321990  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.322010  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.322024  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.322036  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.322048  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.322069  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.322083  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.326005  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 23 ,sample stamp: 428073191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.331547  6337 pcps_acquisition.cc:394] negative acquisition, satellite G 23, sample_stamp 428073191, test statistics value 22.3041, test statistics threshold 40.6733, code phase 2656, doppler -5000, magnitude 0, input signal power 3.86807e+07
+I0525 14:38:30.331634  6320 channel_fsm.cc:131] CH = 6. Ev failed acquisition no repeat
+I0525 14:38:30.331643  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 0
+I0525 14:38:30.331652  6301 gnss_flowgraph.cc:1283] Received 0 from 6
+I0525 14:38:30.331723  6301 gnss_flowgraph.cc:1301] Channel 6 ACQ FAILED satellite GPS PRN 23 (Block IIR), Signal 1C
+I0525 14:38:30.336315  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 24 (Block IIF)
+I0525 14:38:30.336328  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 24 (Block IIF)
+I0525 14:38:30.336335  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 24 (Block IIF)
+I0525 14:38:30.336390  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 24 (Block IIF), Signal 1C
+I0525 14:38:30.336407  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 24 (Block IIF)
+I0525 14:38:30.336413  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.336419  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.336428  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.336447  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.336460  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.336472  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.336485  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.336498  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.336666  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.336680  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.338934  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 24 ,sample stamp: 428085191, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.340952  6356 rtklib_solver.cc:985] RTKLIB Position at RX TOW = 110328 in ECEF (X,Y,Z,t[meters]) =   -2.8458e+06
+   4.6592e+06
+   3.2867e+06
+   8.2617e-03
+I0525 14:38:30.341004  6356 rtklib_solver.cc:999] RTKLIB Position at 2020-May-25 06:38:30.160000 is Lat = 13.2185 [deg], Long = 37.416 [deg], Height= 89.017 [m] RX time offset= 0.00826168 [s]
+I0525 14:38:30.341028  6356 rtklib_pvt_gs.cc:2186] Rx clock offset at interpolated RX time: 8.26168[s] at RX time: 110328160 [ms]
+I0525 14:38:30.343899  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 24, sample_stamp 428085191, test statistics value 24.907, test statistics threshold 40.6733, code phase 3661, doppler 5750, magnitude 0, input signal power 3.65179e+07
+I0525 14:38:30.344269  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.344880  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.344890  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.344955  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 24 (Block IIF), Signal 1C
+I0525 14:38:30.344976  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.351758  6356 rtklib_solver.cc:985] RTKLIB Position at RX TOW = 110328 in ECEF (X,Y,Z,t[meters]) =   -2.8458e+06
+   4.6592e+06
+   3.2867e+06
+   8.2617e-03
+I0525 14:38:30.351817  6356 rtklib_solver.cc:999] RTKLIB Position at 2020-May-25 06:38:30.180000 is Lat = 13.2185 [deg], Long = 37.416 [deg], Height= 87.7172 [m] RX time offset= 0.00826167 [s]
+I0525 14:38:30.351840  6356 rtklib_pvt_gs.cc:2186] Rx clock offset at interpolated RX time: 8.26167[s] at RX time: 110328180 [ms]
+I0525 14:38:30.356145  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 25 (Block IIF)
+I0525 14:38:30.356169  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 25 (Block IIF)
+I0525 14:38:30.356176  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 25 (Block IIF)
+I0525 14:38:30.356765  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 25 (Block IIF), Signal 1C
+I0525 14:38:30.356789  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 25 (Block IIF)
+I0525 14:38:30.356797  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.356804  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.356813  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.356842  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.356855  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.356868  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.356879  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.356891  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.356904  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.360235  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 25 ,sample stamp: 428257538, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.364431  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 25, sample_stamp 428257538, test statistics value 28.4463, test statistics threshold 40.6733, code phase 1477, doppler 1500, magnitude 0, input signal power 3.67458e+07
+I0525 14:38:30.364574  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.364735  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.364749  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.364895  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 25 (Block IIF), Signal 1C
+I0525 14:38:30.364919  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.364931  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.371273  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 26 (Block IIF)
+I0525 14:38:30.371294  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 26 (Block IIF)
+I0525 14:38:30.371301  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 26 (Block IIF)
+I0525 14:38:30.371336  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 26 (Block IIF), Signal 1C
+I0525 14:38:30.371352  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 26 (Block IIF)
+I0525 14:38:30.371358  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.371363  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.371372  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.371397  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.371407  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.371418  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.371429  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.371439  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.375722  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 26 ,sample stamp: 428298631, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.380331  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 26, sample_stamp 428298631, test statistics value 25.4607, test statistics threshold 40.6733, code phase 2530, doppler -4000, magnitude 0, input signal power 4.02719e+07
+I0525 14:38:30.380414  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.380432  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.380445  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.380511  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 26 (Block IIF), Signal 1C
+I0525 14:38:30.380528  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.383433  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 27 (Block IIF)
+I0525 14:38:30.383446  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 27 (Block IIF)
+I0525 14:38:30.383452  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 27 (Block IIF)
+I0525 14:38:30.383486  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 27 (Block IIF), Signal 1C
+I0525 14:38:30.383502  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 27 (Block IIF)
+I0525 14:38:30.383508  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.383513  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.383522  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.383539  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.383550  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.383561  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.383571  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.383582  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.383592  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.386032  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 27 ,sample stamp: 428337383, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.391204  6337 pcps_acquisition.cc:394] negative acquisition, satellite G 27, sample_stamp 428337383, test statistics value 23.9678, test statistics threshold 40.6733, code phase 3023, doppler 4750, magnitude 0, input signal power 3.69592e+07
+I0525 14:38:30.391343  6320 channel_fsm.cc:131] CH = 6. Ev failed acquisition no repeat
+I0525 14:38:30.391369  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 0
+I0525 14:38:30.391374  6301 gnss_flowgraph.cc:1283] Received 0 from 6
+I0525 14:38:30.391435  6301 gnss_flowgraph.cc:1301] Channel 6 ACQ FAILED satellite GPS PRN 27 (Block IIF), Signal 1C
+I0525 14:38:30.393934  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.393944  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.393949  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.393985  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 29 (Block IIR-M), Signal 1C
+I0525 14:38:30.393997  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.394003  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.394007  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.394013  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.394026  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.394033  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.394042  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.394057  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.394075  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.394086  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.394095  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.394981  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 29 ,sample stamp: 428396042, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.399297  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 29, sample_stamp 428396042, test statistics value 25.118, test statistics threshold 40.6733, code phase 1886, doppler 4250, magnitude 0, input signal power 3.56508e+07
+I0525 14:38:30.399571  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.399582  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.399592  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.399649  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 29 (Block IIR-M), Signal 1C
+I0525 14:38:30.399664  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.402184  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.402192  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.402197  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.402225  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 31 (Block IIR-M), Signal 1C
+I0525 14:38:30.402237  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.402248  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.402253  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.402259  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.402272  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.402282  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.402292  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.402300  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.402308  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.402318  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.403946  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 31 ,sample stamp: 428433383, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.408267  6352 pcps_acquisition.cc:394] negative acquisition, satellite G 31, sample_stamp 428433383, test statistics value 24.5556, test statistics threshold 40.6733, code phase 853, doppler -8500, magnitude 0, input signal power 3.71838e+07
+I0525 14:38:30.408341  6325 channel_fsm.cc:131] CH = 1. Ev failed acquisition no repeat
+I0525 14:38:30.408360  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 0
+I0525 14:38:30.408370  6301 gnss_flowgraph.cc:1283] Received 0 from 1
+I0525 14:38:30.408423  6301 gnss_flowgraph.cc:1301] Channel 1 ACQ FAILED satellite GPS PRN 31 (Block IIR-M), Signal 1C
+I0525 14:38:30.408447  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.408455  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.411043  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 32 (Block IIF)
+I0525 14:38:30.411053  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 32 (Block IIF)
+I0525 14:38:30.411057  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 32 (Block IIF)
+I0525 14:38:30.411093  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 32 (Block IIF), Signal 1C
+I0525 14:38:30.411108  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 32 (Block IIF)
+I0525 14:38:30.411111  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.411116  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.411123  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.411136  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.411145  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.411161  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.411171  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.411180  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.413116  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 32 ,sample stamp: 428460761, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.417750  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 32, sample_stamp 428460761, test statistics value 31.0248, test statistics threshold 40.6733, code phase 3703, doppler 4250, magnitude 0, input signal power 3.61358e+07
+I0525 14:38:30.420284  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.420316  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.420322  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.420388  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 32 (Block IIF), Signal 1C
+I0525 14:38:30.420403  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.427695  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 02 (Block IIR)
+I0525 14:38:30.427712  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 02 (Block IIR)
+I0525 14:38:30.427717  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 02 (Block IIR)
+I0525 14:38:30.427753  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 02 (Block IIR), Signal 1C
+I0525 14:38:30.428174  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 02 (Block IIR)
+I0525 14:38:30.428182  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.428186  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.428202  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.428222  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.428231  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.428241  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.428279  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.428290  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.428298  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.439158  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 2 ,sample stamp: 428689631, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.443665  6337 pcps_acquisition.cc:394] negative acquisition, satellite G 2, sample_stamp 428689631, test statistics value 27.62, test statistics threshold 40.6733, code phase 3400, doppler 9250, magnitude 0, input signal power 3.6488e+07
+I0525 14:38:30.445567  6320 channel_fsm.cc:131] CH = 6. Ev failed acquisition no repeat
+I0525 14:38:30.445605  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 0
+I0525 14:38:30.445611  6301 gnss_flowgraph.cc:1283] Received 0 from 6
+I0525 14:38:30.445679  6301 gnss_flowgraph.cc:1301] Channel 6 ACQ FAILED satellite GPS PRN 02 (Block IIR), Signal 1C
+I0525 14:38:30.449077  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 04 (Block Unknown)
+I0525 14:38:30.449090  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:38:30.449095  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:38:30.449131  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 04 (Block Unknown), Signal 1C
+I0525 14:38:30.449144  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 04 (Block Unknown)
+I0525 14:38:30.449149  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.449154  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.449160  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.449174  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.449184  6301 gnss_flowgraph.cc:1252] Channel 1 in state 0
+I0525 14:38:30.449193  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.449208  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.449218  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.449225  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.449234  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.451274  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 4 ,sample stamp: 428761631, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.455864  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 4, sample_stamp 428761631, test statistics value 26.4766, test statistics threshold 40.6733, code phase 2385, doppler 500, magnitude 0, input signal power 3.76335e+07
+I0525 14:38:30.455947  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.455961  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.455969  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.456174  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 04 (Block Unknown), Signal 1C
+I0525 14:38:30.456194  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.459841  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 06 (Block IIF)
+I0525 14:38:30.459861  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 06 (Block IIF)
+I0525 14:38:30.459867  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 06 (Block IIF)
+I0525 14:38:30.459894  6301 gnss_flowgraph.cc:1223] Channel 1 Starting acquisition GPS PRN 06 (Block IIF), Signal 1C
+I0525 14:38:30.459908  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 06 (Block IIF)
+I0525 14:38:30.459913  6301 channel_fsm.cc:89] CH = 1. Ev start acquisition
+I0525 14:38:30.459916  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.459960  6301 gnss_flowgraph.cc:1252] Channel 1 in state 1
+I0525 14:38:30.459980  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.459990  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.459998  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.460007  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.460016  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.460031  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.461355  6352 pcps_acquisition.cc:640] Channel: 1 , doing acquisition of satellite: G 6 ,sample stamp: 428829631, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.465607  6352 pcps_acquisition.cc:366] positive acquisition, satellite G 6, sample_stamp 428829631, test statistics value 79.7075, test statistics threshold 40.6733, code phase 2560, doppler 2750, magnitude 0, input signal power 3.46635e+07, Assist doppler_center 0
+I0525 14:38:30.467634  6352 dll_pll_veml_tracking.cc:753] Starting tracking of satellite GPS PRN 06 (Block IIF) on channel 1
+I0525 14:38:30.467664  6352 channel_fsm.cc:103] CH = 1. Ev valid acquisition
+I0525 14:38:30.467774  6350 dll_pll_veml_tracking.cc:1642] Number of samples between Acquisition and Tracking = 28000 ( 0.007 s)
+I0525 14:38:30.467788  6350 dll_pll_veml_tracking.cc:1643] PULL-IN Doppler [Hz] = 2750. PULL-IN Code Phase [samples] = 2560
+I0525 14:38:30.470105  6301 control_thread.cc:240] New channel event rx from ch id: 1 what: 1
+I0525 14:38:30.470115  6301 gnss_flowgraph.cc:1283] Received 1 from 1
+I0525 14:38:30.470165  6301 gnss_flowgraph.cc:1317] Channel 1 ACQ SUCCESS satellite GPS PRN 06 (Block IIF)
+I0525 14:38:30.470588  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.470600  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.471259  6353 dll_pll_veml_tracking.cc:891] Loss of lock in channel 0 (carrier_lock_fail_counter:5001 code_lock_fail_counter : 0)
+I0525 14:38:30.471648  6326 channel_fsm.cc:145] CH = 0. Ev failed tracking standby
+I0525 14:38:30.473147  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.473160  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.473163  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.473191  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 05 (Block IIR-M), Signal 1C
+I0525 14:38:30.473204  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.473208  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.473212  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.473218  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.473235  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.473244  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.473284  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.473295  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.473304  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.473317  6301 control_thread.cc:240] New channel event rx from ch id: 0 what: 2
+I0525 14:38:30.473322  6301 gnss_flowgraph.cc:1283] Received 2 from 0
+I0525 14:38:30.473359  6301 gnss_flowgraph.cc:1332] Channel 0 TRK FAILED satellite GPS PRN 28 (Block IIR)
+I0525 14:38:30.473367  6301 gnss_flowgraph.cc:1351] Channel 0 Idle state
+I0525 14:38:30.473992  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 5 ,sample stamp: 428917631, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.480350  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 5, sample_stamp 428917631, test statistics value 27.3173, test statistics threshold 40.6733, code phase 2232, doppler 1750, magnitude 0, input signal power 3.68157e+07
+I0525 14:38:30.480453  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.480463  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.480473  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.480525  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 05 (Block IIR-M), Signal 1C
+I0525 14:38:30.480542  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.482957  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.482990  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.482995  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.483027  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 07 (Block IIR-M), Signal 1C
+I0525 14:38:30.483042  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.483047  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.483052  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.483058  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.483089  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.483101  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:38:30.483112  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.483122  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.483132  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.483141  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.486246  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 7 ,sample stamp: 428985300, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.489202  6337 pcps_acquisition.cc:394] negative acquisition, satellite G 7, sample_stamp 428985300, test statistics value 27.9388, test statistics threshold 40.6733, code phase 1210, doppler -2250, magnitude 0, input signal power 3.83437e+07
+I0525 14:38:30.489260  6320 channel_fsm.cc:131] CH = 6. Ev failed acquisition no repeat
+I0525 14:38:30.489274  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 0
+I0525 14:38:30.489285  6301 gnss_flowgraph.cc:1283] Received 0 from 6
+I0525 14:38:30.489337  6301 gnss_flowgraph.cc:1301] Channel 6 ACQ FAILED satellite GPS PRN 07 (Block IIR-M), Signal 1C
+I0525 14:38:30.491765  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 30 (Block IIF)
+I0525 14:38:30.491778  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 30 (Block IIF)
+I0525 14:38:30.491782  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 30 (Block IIF)
+I0525 14:38:30.491812  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 30 (Block IIF), Signal 1C
+I0525 14:38:30.491825  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 30 (Block IIF)
+I0525 14:38:30.491830  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.491834  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.491840  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.491856  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:38:30.491866  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.491875  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.491884  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.491894  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.491902  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.491911  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.492893  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 30 ,sample stamp: 429041632, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.497228  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 30, sample_stamp 429041632, test statistics value 25.2538, test statistics threshold 40.6733, code phase 1914, doppler 4500, magnitude 0, input signal power 3.69979e+07
+I0525 14:38:30.497351  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.497376  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.497382  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.497438  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 30 (Block IIF), Signal 1C
+I0525 14:38:30.501638  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 08 (Block IIF)
+I0525 14:38:30.501658  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 08 (Block IIF)
+I0525 14:38:30.501665  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 08 (Block IIF)
+I0525 14:38:30.501701  6301 gnss_flowgraph.cc:1223] Channel 0 Starting acquisition GPS PRN 08 (Block IIF), Signal 1C
+I0525 14:38:30.501754  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 08 (Block IIF)
+I0525 14:38:30.501758  6301 channel_fsm.cc:89] CH = 0. Ev start acquisition
+I0525 14:38:30.501762  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.501770  6301 gnss_flowgraph.cc:1252] Channel 0 in state 1
+I0525 14:38:30.501791  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.501801  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.501811  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.501818  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.501827  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.501835  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.501843  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.503036  6357 pcps_acquisition.cc:640] Channel: 0 , doing acquisition of satellite: G 8 ,sample stamp: 429073632, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.507722  6357 pcps_acquisition.cc:394] negative acquisition, satellite G 8, sample_stamp 429073632, test statistics value 24.9315, test statistics threshold 40.6733, code phase 1019, doppler -8250, magnitude 0, input signal power 3.61263e+07
+I0525 14:38:30.507810  6326 channel_fsm.cc:131] CH = 0. Ev failed acquisition no repeat
+I0525 14:38:30.508312  6301 control_thread.cc:240] New channel event rx from ch id: 0 what: 0
+I0525 14:38:30.508325  6301 gnss_flowgraph.cc:1283] Received 0 from 0
+I0525 14:38:30.508388  6301 gnss_flowgraph.cc:1301] Channel 0 ACQ FAILED satellite GPS PRN 08 (Block IIF), Signal 1C
+I0525 14:38:30.508409  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.508421  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.508431  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.510854  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 09 (Block IIF)
+I0525 14:38:30.510870  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 09 (Block IIF)
+I0525 14:38:30.510875  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 09 (Block IIF)
+I0525 14:38:30.510903  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:38:30.510916  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 09 (Block IIF)
+I0525 14:38:30.510921  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.510926  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.510933  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.510951  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.510985  6301 gnss_flowgraph.cc:1252] Channel 6 in state 0
+I0525 14:38:30.510996  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.511005  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:38:30.511528  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 9 ,sample stamp: 429138132, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.516126  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 9, sample_stamp 429138132, test statistics value 29.179, test statistics threshold 40.6733, code phase 3209, doppler -1750, magnitude 0, input signal power 3.71817e+07
+I0525 14:38:30.516202  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.516213  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.516222  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.516276  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:38:30.516292  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.518628  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 19 (Block IIR)
+I0525 14:38:30.518640  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 19 (Block IIR)
+I0525 14:38:30.518644  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 19 (Block IIR)
+I0525 14:38:30.518671  6301 gnss_flowgraph.cc:1223] Channel 6 Starting acquisition GPS PRN 19 (Block IIR), Signal 1C
+I0525 14:38:30.518683  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 19 (Block IIR)
+I0525 14:38:30.518687  6301 channel_fsm.cc:89] CH = 6. Ev start acquisition
+I0525 14:38:30.518692  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.518697  6301 gnss_flowgraph.cc:1252] Channel 6 in state 1
+I0525 14:38:30.518710  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.518719  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:38:30.518729  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.518738  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.518746  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.518755  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.520756  6337 pcps_acquisition.cc:640] Channel: 6 , doing acquisition of satellite: G 19 ,sample stamp: 429173632, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.525169  6337 pcps_acquisition.cc:366] positive acquisition, satellite G 19, sample_stamp 429173632, test statistics value 50.3737, test statistics threshold 40.6733, code phase 3794, doppler 2250, magnitude 0, input signal power 3.88499e+07, Assist doppler_center 0
+I0525 14:38:30.527313  6337 dll_pll_veml_tracking.cc:753] Starting tracking of satellite GPS PRN 19 (Block IIR) on channel 6
+I0525 14:38:30.527335  6335 dll_pll_veml_tracking.cc:1642] Number of samples between Acquisition and Tracking = 52000 ( 0.013 s)
+I0525 14:38:30.527346  6335 dll_pll_veml_tracking.cc:1643] PULL-IN Doppler [Hz] = 2250. PULL-IN Code Phase [samples] = 3794
+I0525 14:38:30.527374  6337 channel_fsm.cc:103] CH = 6. Ev valid acquisition
+I0525 14:38:30.530087  6301 control_thread.cc:240] New channel event rx from ch id: 6 what: 1
+I0525 14:38:30.530094  6301 gnss_flowgraph.cc:1283] Received 1 from 6
+I0525 14:38:30.530143  6301 gnss_flowgraph.cc:1317] Channel 6 ACQ SUCCESS satellite GPS PRN 19 (Block IIR)
+I0525 14:38:30.532917  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 10 (Block IIF)
+I0525 14:38:30.532927  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 10 (Block IIF)
+I0525 14:38:30.532932  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 10 (Block IIF)
+I0525 14:38:30.532959  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:38:30.532994  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 10 (Block IIF)
+I0525 14:38:30.533000  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.533004  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.533011  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.533025  6301 gnss_flowgraph.cc:1252] Channel 0 in state 0
+I0525 14:38:30.533033  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.533042  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.533051  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.533058  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.533066  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.533075  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.582159  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 10 ,sample stamp: 429364255, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.586532  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 10, sample_stamp 429364255, test statistics value 23.2016, test statistics threshold 40.6733, code phase 2805, doppler -4000, magnitude 0, input signal power 3.80379e+07
+I0525 14:38:30.586611  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.589727  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.589736  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.589793  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:38:30.592157  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 01 (Block IIF)
+I0525 14:38:30.592167  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 01 (Block IIF)
+I0525 14:38:30.592173  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 01 (Block IIF)
+I0525 14:38:30.592201  6301 gnss_flowgraph.cc:1223] Channel 0 Starting acquisition GPS PRN 01 (Block IIF), Signal 1C
+I0525 14:38:30.592213  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 01 (Block IIF)
+I0525 14:38:30.592218  6301 channel_fsm.cc:89] CH = 0. Ev start acquisition
+I0525 14:38:30.592222  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.592228  6301 gnss_flowgraph.cc:1252] Channel 0 in state 1
+I0525 14:38:30.592242  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.592250  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.592258  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.592267  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.592275  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.592283  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.592291  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.594019  6357 pcps_acquisition.cc:640] Channel: 0 , doing acquisition of satellite: G 1 ,sample stamp: 429397632, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.599432  6357 pcps_acquisition.cc:366] positive acquisition, satellite G 1, sample_stamp 429397632, test statistics value 53.2129, test statistics threshold 40.6733, code phase 2960, doppler -2750, magnitude 0, input signal power 3.77156e+07, Assist doppler_center 0
+I0525 14:38:30.601940  6357 dll_pll_veml_tracking.cc:753] Starting tracking of satellite GPS PRN 01 (Block IIF) on channel 0
+I0525 14:38:30.601967  6357 channel_fsm.cc:103] CH = 0. Ev valid acquisition
+I0525 14:38:30.601982  6301 control_thread.cc:240] New channel event rx from ch id: 0 what: 1
+I0525 14:38:30.601994  6301 gnss_flowgraph.cc:1283] Received 1 from 0
+I0525 14:38:30.602001  6353 dll_pll_veml_tracking.cc:1642] Number of samples between Acquisition and Tracking = 52000 ( 0.013 s)
+I0525 14:38:30.602041  6301 gnss_flowgraph.cc:1317] Channel 0 ACQ SUCCESS satellite GPS PRN 01 (Block IIF)
+I0525 14:38:30.602041  6353 dll_pll_veml_tracking.cc:1643] PULL-IN Doppler [Hz] = -2750. PULL-IN Code Phase [samples] = 2960
+I0525 14:38:30.602464  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.602478  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.602486  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.604880  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 11 (Block IIR)
+I0525 14:38:30.604897  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 11 (Block IIR)
+I0525 14:38:30.604903  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 11 (Block IIR)
+I0525 14:38:30.604931  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:38:30.604943  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 11 (Block IIR)
+I0525 14:38:30.604948  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.604954  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.604960  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.604979  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.604988  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.604998  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.605007  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.605942  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 11 ,sample stamp: 429485632, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.615752  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 11, sample_stamp 429485632, test statistics value 25.2894, test statistics threshold 40.6733, code phase 541, doppler 6250, magnitude 0, input signal power 3.64212e+07
+I0525 14:38:30.616062  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.616297  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.616315  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.616428  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:38:30.616456  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.616472  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.618958  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.618978  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.618983  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.619015  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 12 (Block IIR-M), Signal 1C
+I0525 14:38:30.619030  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 12 (Block IIR-M)
+I0525 14:38:30.619035  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.619040  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.619046  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.619071  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.619082  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.619091  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.619102  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.619112  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.619732  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 12 ,sample stamp: 429536313, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.623991  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 12, sample_stamp 429536313, test statistics value 26.621, test statistics threshold 40.6733, code phase 2814, doppler -250, magnitude 0, input signal power 4.02914e+07
+I0525 14:38:30.624166  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.624188  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.624193  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.624244  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 12 (Block IIR-M), Signal 1C
+I0525 14:38:30.624258  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.624267  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.624276  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.624285  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.626672  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 13 (Block IIR)
+I0525 14:38:30.626686  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 13 (Block IIR)
+I0525 14:38:30.626691  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 13 (Block IIR)
+I0525 14:38:30.626720  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 13 (Block IIR), Signal 1C
+I0525 14:38:30.626734  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 13 (Block IIR)
+I0525 14:38:30.626739  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.626742  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.626749  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.626768  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.626778  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.626786  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.691319  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 13 ,sample stamp: 429570078, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.695716  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 13, sample_stamp 429570078, test statistics value 24.1518, test statistics threshold 40.6733, code phase 1678, doppler -3250, magnitude 0, input signal power 3.75539e+07
+I0525 14:38:30.695909  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.695919  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.695927  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.695991  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 13 (Block IIR), Signal 1C
+I0525 14:38:30.696013  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.696027  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.698578  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 14 (Block IIR)
+I0525 14:38:30.698593  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 14 (Block IIR)
+I0525 14:38:30.698599  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 14 (Block IIR)
+I0525 14:38:30.698632  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 14 (Block IIR), Signal 1C
+I0525 14:38:30.698652  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 14 (Block IIR)
+I0525 14:38:30.698659  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.698664  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.698671  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.698693  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.698704  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.698715  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.698725  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.698736  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.706137  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 14 ,sample stamp: 429724633, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.710412  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 14, sample_stamp 429724633, test statistics value 22.9251, test statistics threshold 40.6733, code phase 2884, doppler 0, magnitude 0, input signal power 3.5984e+07
+I0525 14:38:30.710477  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.710505  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.710510  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.710567  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 14 (Block IIR), Signal 1C
+I0525 14:38:30.710583  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.710593  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.710602  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.710611  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.712936  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.712945  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.712949  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.712977  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 15 (Block IIR-M), Signal 1C
+I0525 14:38:30.712990  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 15 (Block IIR-M)
+I0525 14:38:30.712993  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.712998  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.713006  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.713017  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.713027  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.713034  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.717140  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 15 ,sample stamp: 429745190, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.722982  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 15, sample_stamp 429745190, test statistics value 24.71, test statistics threshold 40.6733, code phase 211, doppler -8750, magnitude 0, input signal power 3.57483e+07
+I0525 14:38:30.723054  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.723067  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.723079  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.723132  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 15 (Block IIR-M), Signal 1C
+I0525 14:38:30.723147  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.723156  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.725497  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 16 (Block IIR)
+I0525 14:38:30.725505  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 16 (Block IIR)
+I0525 14:38:30.725510  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 16 (Block IIR)
+I0525 14:38:30.725538  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 16 (Block IIR), Signal 1C
+I0525 14:38:30.725550  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 16 (Block IIR)
+I0525 14:38:30.725554  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.725558  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.725564  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.725577  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.725621  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.725630  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.725638  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.725647  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.726263  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 16 ,sample stamp: 429777190, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.731036  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 16, sample_stamp 429777190, test statistics value 24.3205, test statistics threshold 40.6733, code phase 666, doppler -6500, magnitude 0, input signal power 3.82583e+07
+I0525 14:38:30.731405  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.731429  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.731436  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.731487  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 16 (Block IIR), Signal 1C
+I0525 14:38:30.731503  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.731511  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.731519  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.731528  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.735491  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 18 (Block IIR)
+I0525 14:38:30.735507  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 18 (Block IIR)
+I0525 14:38:30.735512  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 18 (Block IIR)
+I0525 14:38:30.735541  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 18 (Block IIR), Signal 1C
+I0525 14:38:30.735554  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 18 (Block IIR)
+I0525 14:38:30.735559  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.735563  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.735570  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.735589  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.735599  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.735608  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.752411  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 18 ,sample stamp: 429862751, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.756731  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 18, sample_stamp 429862751, test statistics value 25.8573, test statistics threshold 40.6733, code phase 3489, doppler 3500, magnitude 0, input signal power 3.74417e+07
+I0525 14:38:30.766114  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.766126  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.766136  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.766192  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 18 (Block IIR), Signal 1C
+I0525 14:38:30.766209  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.766222  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.768576  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 20 (Block IIR)
+I0525 14:38:30.768589  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 20 (Block IIR)
+I0525 14:38:30.768594  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 20 (Block IIR)
+I0525 14:38:30.768621  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 20 (Block IIR), Signal 1C
+I0525 14:38:30.768635  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 20 (Block IIR)
+I0525 14:38:30.768688  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.768694  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.768702  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.768718  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.768726  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.768735  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.768744  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.768755  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.770869  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 20 ,sample stamp: 429989679, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.775153  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 20, sample_stamp 429989679, test statistics value 30.1751, test statistics threshold 40.6733, code phase 2100, doppler 2000, magnitude 0, input signal power 3.78361e+07
+I0525 14:38:30.775228  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.775252  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.775259  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.775311  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 20 (Block IIR), Signal 1C
+I0525 14:38:30.775326  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.775336  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.775346  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.775355  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.777704  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 21 (Block IIR)
+I0525 14:38:30.777717  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 21 (Block IIR)
+I0525 14:38:30.777722  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 21 (Block IIR)
+I0525 14:38:30.777751  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 21 (Block IIR), Signal 1C
+I0525 14:38:30.777765  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 21 (Block IIR)
+I0525 14:38:30.777768  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.777772  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.777779  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.777796  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.777803  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.777812  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.790094  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 21 ,sample stamp: 430041679, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.794334  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 21, sample_stamp 430041679, test statistics value 25.5867, test statistics threshold 40.6733, code phase 2003, doppler 1500, magnitude 0, input signal power 3.6491e+07
+I0525 14:38:30.798105  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.798115  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.798125  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.798178  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 21 (Block IIR), Signal 1C
+I0525 14:38:30.798192  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.798202  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.800565  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 23 (Block IIR)
+I0525 14:38:30.800578  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 23 (Block IIR)
+I0525 14:38:30.800582  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 23 (Block IIR)
+I0525 14:38:30.800709  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 23 (Block IIR), Signal 1C
+I0525 14:38:30.800724  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 23 (Block IIR)
+I0525 14:38:30.800729  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.800734  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.800741  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.800766  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.800776  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.800786  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.800797  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.800806  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.802646  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 23 ,sample stamp: 430089679, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.807615  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 23, sample_stamp 430089679, test statistics value 27.3608, test statistics threshold 40.6733, code phase 51, doppler -2750, magnitude 0, input signal power 3.6868e+07
+I0525 14:38:30.807770  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.807793  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.807798  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.807852  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 23 (Block IIR), Signal 1C
+I0525 14:38:30.807869  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.807878  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.807886  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.807895  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.810370  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 24 (Block IIF)
+I0525 14:38:30.810387  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 24 (Block IIF)
+I0525 14:38:30.810392  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 24 (Block IIF)
+I0525 14:38:30.810426  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 24 (Block IIF), Signal 1C
+I0525 14:38:30.810441  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 24 (Block IIF)
+I0525 14:38:30.810446  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.810449  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.810456  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.810477  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.810485  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.810494  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.819397  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 24 ,sample stamp: 430137679, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.823803  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 24, sample_stamp 430137679, test statistics value 23.3991, test statistics threshold 40.6733, code phase 545, doppler 3250, magnitude 0, input signal power 3.92213e+07
+I0525 14:38:30.823925  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.823945  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.823956  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.824029  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 24 (Block IIF), Signal 1C
+I0525 14:38:30.824048  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.824060  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.826534  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 25 (Block IIF)
+I0525 14:38:30.826547  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 25 (Block IIF)
+I0525 14:38:30.826551  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 25 (Block IIF)
+I0525 14:38:30.826579  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 25 (Block IIF), Signal 1C
+I0525 14:38:30.826591  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 25 (Block IIF)
+I0525 14:38:30.826596  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.826601  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.826606  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.826620  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.826629  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.826637  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.826647  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.826654  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.831172  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 25 ,sample stamp: 430189679, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.837177  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 25, sample_stamp 430189679, test statistics value 25.0633, test statistics threshold 40.6733, code phase 982, doppler -8250, magnitude 0, input signal power 3.60227e+07
+I0525 14:38:30.837261  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.837289  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.837294  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.837342  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 25 (Block IIF), Signal 1C
+I0525 14:38:30.837354  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.837363  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.837369  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.837376  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.839812  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 26 (Block IIF)
+I0525 14:38:30.839829  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 26 (Block IIF)
+I0525 14:38:30.839834  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 26 (Block IIF)
+I0525 14:38:30.839861  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 26 (Block IIF), Signal 1C
+I0525 14:38:30.839874  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 26 (Block IIF)
+I0525 14:38:30.839879  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.839882  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.839890  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.839907  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.839916  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.839926  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.844527  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 26 ,sample stamp: 430279179, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.849954  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 26, sample_stamp 430279179, test statistics value 27.5219, test statistics threshold 40.6733, code phase 2708, doppler 6500, magnitude 0, input signal power 3.95502e+07
+I0525 14:38:30.850028  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.850039  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.850052  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.850157  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 26 (Block IIF), Signal 1C
+I0525 14:38:30.850173  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.850183  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.852599  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 27 (Block IIF)
+I0525 14:38:30.852610  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 27 (Block IIF)
+I0525 14:38:30.852614  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 27 (Block IIF)
+I0525 14:38:30.852639  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 27 (Block IIF), Signal 1C
+I0525 14:38:30.852653  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 27 (Block IIF)
+I0525 14:38:30.852658  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.852661  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.852668  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.852681  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.852692  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.852701  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.852710  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.852720  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.854465  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 27 ,sample stamp: 430353679, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.859474  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 27, sample_stamp 430353679, test statistics value 26.1787, test statistics threshold 40.6733, code phase 978, doppler 7250, magnitude 0, input signal power 3.67083e+07
+I0525 14:38:30.859561  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.859589  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.859596  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.859647  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 27 (Block IIF), Signal 1C
+I0525 14:38:30.859663  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.859673  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.859681  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.859689  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.862020  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.862027  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.862032  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.862080  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 29 (Block IIR-M), Signal 1C
+I0525 14:38:30.862094  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 29 (Block IIR-M)
+I0525 14:38:30.862099  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.862103  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.862110  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.862124  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.862133  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.862143  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.866053  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 29 ,sample stamp: 430381762, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.873466  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 29, sample_stamp 430381762, test statistics value 22.4538, test statistics threshold 40.6733, code phase 358, doppler 250, magnitude 0, input signal power 3.74663e+07
+I0525 14:38:30.875634  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.875644  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.875653  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.875710  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 29 (Block IIR-M), Signal 1C
+I0525 14:38:30.875725  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.875735  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.878031  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.878041  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.878046  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.878108  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 31 (Block IIR-M), Signal 1C
+I0525 14:38:30.878121  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 31 (Block IIR-M)
+I0525 14:38:30.878126  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.878130  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.878136  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.878150  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.878159  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.878167  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.878176  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.878185  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.882234  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 31 ,sample stamp: 430488442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.886950  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 31, sample_stamp 430488442, test statistics value 22.7902, test statistics threshold 40.6733, code phase 3232, doppler 3250, magnitude 0, input signal power 3.53584e+07
+I0525 14:38:30.887272  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.887362  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.887378  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.887490  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 31 (Block IIR-M), Signal 1C
+I0525 14:38:30.887523  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.887535  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.887547  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.887578  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.889935  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 32 (Block IIF)
+I0525 14:38:30.889945  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 32 (Block IIF)
+I0525 14:38:30.889948  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 32 (Block IIF)
+I0525 14:38:30.889976  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 32 (Block IIF), Signal 1C
+I0525 14:38:30.889987  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 32 (Block IIF)
+I0525 14:38:30.889992  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.889997  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.890003  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.890015  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.890024  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.890034  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.893481  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 32 ,sample stamp: 430516442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.899493  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 32, sample_stamp 430516442, test statistics value 24.3075, test statistics threshold 40.6733, code phase 3173, doppler -6750, magnitude 0, input signal power 3.64691e+07
+I0525 14:38:30.899576  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.899585  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.899592  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.899643  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 32 (Block IIF), Signal 1C
+I0525 14:38:30.899658  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.899667  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.901999  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 02 (Block IIR)
+I0525 14:38:30.902009  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 02 (Block IIR)
+I0525 14:38:30.902014  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 02 (Block IIR)
+I0525 14:38:30.902040  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 02 (Block IIR), Signal 1C
+I0525 14:38:30.902052  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 02 (Block IIR)
+I0525 14:38:30.902057  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.902086  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.902093  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.902107  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.902117  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.902125  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.902134  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.902143  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.903966  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 2 ,sample stamp: 430552442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.908653  6334 pcps_acquisition.cc:394] negative acquisition, satellite G 2, sample_stamp 430552442, test statistics value 26.0912, test statistics threshold 40.6733, code phase 266, doppler 4000, magnitude 0, input signal power 3.70562e+07
+I0525 14:38:30.908726  6319 channel_fsm.cc:131] CH = 7. Ev failed acquisition no repeat
+I0525 14:38:30.908754  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 0
+I0525 14:38:30.908761  6301 gnss_flowgraph.cc:1283] Received 0 from 7
+I0525 14:38:30.908815  6301 gnss_flowgraph.cc:1301] Channel 7 ACQ FAILED satellite GPS PRN 02 (Block IIR), Signal 1C
+I0525 14:38:30.908830  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.908840  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.908849  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.908859  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.922339  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 04 (Block Unknown)
+I0525 14:38:30.922358  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:38:30.922363  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 04 (Block Unknown)
+I0525 14:38:30.922392  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 04 (Block Unknown), Signal 1C
+I0525 14:38:30.922406  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 04 (Block Unknown)
+I0525 14:38:30.922411  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.922415  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.922422  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.922478  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.922489  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.922498  6301 gnss_flowgraph.cc:1252] Channel 7 in state 0
+I0525 14:38:30.923895  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 4 ,sample stamp: 430668442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.928105  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 4, sample_stamp 430668442, test statistics value 24.4973, test statistics threshold 40.6733, code phase 1472, doppler 7500, magnitude 0, input signal power 3.78909e+07
+I0525 14:38:30.928172  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.928184  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.928197  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.928248  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 04 (Block Unknown), Signal 1C
+I0525 14:38:30.928262  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.928272  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.931785  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 28 (Block IIR)
+I0525 14:38:30.931802  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 28 (Block IIR)
+I0525 14:38:30.931807  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 28 (Block IIR)
+I0525 14:38:30.931838  6301 gnss_flowgraph.cc:1223] Channel 7 Starting acquisition GPS PRN 28 (Block IIR), Signal 1C
+I0525 14:38:30.931851  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 28 (Block IIR)
+I0525 14:38:30.931856  6301 channel_fsm.cc:89] CH = 7. Ev start acquisition
+I0525 14:38:30.931860  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.931867  6301 gnss_flowgraph.cc:1252] Channel 7 in state 1
+I0525 14:38:30.931887  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.931896  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.931905  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.931915  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.931923  6301 gnss_flowgraph.cc:1252] Channel 4 in state 0
+I0525 14:38:30.932859  6334 pcps_acquisition.cc:640] Channel: 7 , doing acquisition of satellite: G 28 ,sample stamp: 430728442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.937553  6334 pcps_acquisition.cc:366] positive acquisition, satellite G 28, sample_stamp 430728442, test statistics value 90.2606, test statistics threshold 40.6733, code phase 1734, doppler 750, magnitude 0, input signal power 3.82875e+07, Assist doppler_center 0
+I0525 14:38:30.939695  6334 dll_pll_veml_tracking.cc:753] Starting tracking of satellite GPS PRN 28 (Block IIR) on channel 7
+I0525 14:38:30.939730  6301 control_thread.cc:240] New channel event rx from ch id: 7 what: 1
+I0525 14:38:30.939736  6301 gnss_flowgraph.cc:1283] Received 1 from 7
+I0525 14:38:30.939788  6301 gnss_flowgraph.cc:1317] Channel 7 ACQ SUCCESS satellite GPS PRN 28 (Block IIR)
+I0525 14:38:30.940194  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.940207  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.940214  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.940229  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.940723  6332 dll_pll_veml_tracking.cc:1642] Number of samples between Acquisition and Tracking = 16000 ( 0.004 s)
+I0525 14:38:30.940739  6332 dll_pll_veml_tracking.cc:1643] PULL-IN Doppler [Hz] = 750. PULL-IN Code Phase [samples] = 1734
+I0525 14:38:30.942811  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.942823  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.942869  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.942909  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 05 (Block IIR-M), Signal 1C
+I0525 14:38:30.942925  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 05 (Block IIR-M)
+I0525 14:38:30.942932  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.942937  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.942945  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.942971  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.942982  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.942991  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:30.943009  6334 channel_fsm.cc:103] CH = 7. Ev valid acquisition
+I0525 14:38:30.957036  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 5 ,sample stamp: 430816442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.961441  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 5, sample_stamp 430816442, test statistics value 28.012, test statistics threshold 40.6733, code phase 289, doppler 6500, magnitude 0, input signal power 3.54242e+07
+I0525 14:38:30.961517  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.961531  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.961539  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.961596  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 05 (Block IIR-M), Signal 1C
+I0525 14:38:30.961627  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.961637  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.961644  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:30.961653  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.961661  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.961669  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.961678  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.964745  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.964761  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.964766  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.964795  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 07 (Block IIR-M), Signal 1C
+I0525 14:38:30.964809  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 07 (Block IIR-M)
+I0525 14:38:30.964814  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.964818  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.964824  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.967295  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 7 ,sample stamp: 430888442, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.973379  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 7, sample_stamp 430888442, test statistics value 24.8235, test statistics threshold 40.6733, code phase 876, doppler -2500, magnitude 0, input signal power 3.4913e+07
+I0525 14:38:30.973448  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.973459  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.973472  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.973518  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 07 (Block IIR-M), Signal 1C
+I0525 14:38:30.973529  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.973559  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.973568  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:30.973574  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.973580  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.973585  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.973592  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:30.987931  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 30 (Block IIF)
+I0525 14:38:30.987970  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 30 (Block IIF)
+I0525 14:38:30.987977  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 30 (Block IIF)
+I0525 14:38:30.988027  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 30 (Block IIF), Signal 1C
+I0525 14:38:30.988054  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 30 (Block IIF)
+I0525 14:38:30.988061  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:30.988066  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:30.988078  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:30.989748  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 30 ,sample stamp: 430976441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:30.998870  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 30, sample_stamp 430976441, test statistics value 31.2117, test statistics threshold 40.6733, code phase 1115, doppler -2500, magnitude 0, input signal power 3.68595e+07
+I0525 14:38:30.998950  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:30.998961  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:30.998970  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:30.999022  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 30 (Block IIF), Signal 1C
+I0525 14:38:30.999037  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:30.999047  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:30.999054  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:30.999063  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:30.999071  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:30.999079  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:30.999089  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.002343  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 08 (Block IIF)
+I0525 14:38:31.002354  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 08 (Block IIF)
+I0525 14:38:31.002360  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 08 (Block IIF)
+I0525 14:38:31.002396  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 08 (Block IIF), Signal 1C
+I0525 14:38:31.002410  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 08 (Block IIF)
+I0525 14:38:31.002415  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.002419  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.002425  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.005779  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 8 ,sample stamp: 431040441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.010310  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 8, sample_stamp 431040441, test statistics value 25.4445, test statistics threshold 40.6733, code phase 3325, doppler 3250, magnitude 0, input signal power 3.63681e+07
+I0525 14:38:31.010381  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.010401  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.010433  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.010493  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 08 (Block IIF), Signal 1C
+I0525 14:38:31.010509  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.010517  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.010525  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.010535  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.010542  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.010550  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.010560  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.017840  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 09 (Block IIF)
+I0525 14:38:31.017859  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 09 (Block IIF)
+I0525 14:38:31.017864  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 09 (Block IIF)
+I0525 14:38:31.017895  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:38:31.017910  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 09 (Block IIF)
+I0525 14:38:31.017915  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.017918  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.017925  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.018169  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 9 ,sample stamp: 431076441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.024926  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 9, sample_stamp 431076441, test statistics value 27.2446, test statistics threshold 40.6733, code phase 2324, doppler -7500, magnitude 0, input signal power 3.80266e+07
+I0525 14:38:31.025004  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.025033  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.025039  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.025092  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 09 (Block IIF), Signal 1C
+I0525 14:38:31.025108  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.025118  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.025127  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.025135  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.025144  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.025152  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.025161  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.028427  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 10 (Block IIF)
+I0525 14:38:31.028439  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 10 (Block IIF)
+I0525 14:38:31.028445  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 10 (Block IIF)
+I0525 14:38:31.028472  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:38:31.028486  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 10 (Block IIF)
+I0525 14:38:31.028491  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.028494  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.028501  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.031612  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 10 ,sample stamp: 431137010, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.040555  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 10, sample_stamp 431137010, test statistics value 25.2882, test statistics threshold 40.6733, code phase 682, doppler -8250, magnitude 0, input signal power 3.94661e+07
+I0525 14:38:31.040663  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.040690  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.040696  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.040748  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 10 (Block IIF), Signal 1C
+I0525 14:38:31.040763  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.040772  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.040781  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.040789  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.040798  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.040807  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.040817  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.044070  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 11 (Block IIR)
+I0525 14:38:31.044083  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 11 (Block IIR)
+I0525 14:38:31.044088  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 11 (Block IIR)
+I0525 14:38:31.044118  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:38:31.044131  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 11 (Block IIR)
+I0525 14:38:31.044137  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.044140  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.044147  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.045411  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 11 ,sample stamp: 431176441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.057046  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 11, sample_stamp 431176441, test statistics value 24.1764, test statistics threshold 40.6733, code phase 2284, doppler 5500, magnitude 0, input signal power 3.99459e+07
+I0525 14:38:31.057129  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.057163  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.057169  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.057225  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 11 (Block IIR), Signal 1C
+I0525 14:38:31.057241  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.057251  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.057260  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.057268  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.057276  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.057284  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.057293  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.060636  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 12 (Block IIR-M)
+I0525 14:38:31.060647  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 12 (Block IIR-M)
+I0525 14:38:31.060652  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 12 (Block IIR-M)
+I0525 14:38:31.060679  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 12 (Block IIR-M), Signal 1C
+I0525 14:38:31.060691  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 12 (Block IIR-M)
+I0525 14:38:31.060696  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.060700  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.060706  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.067124  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 12 ,sample stamp: 431264441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.071877  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 12, sample_stamp 431264441, test statistics value 23.2356, test statistics threshold 40.6733, code phase 3860, doppler 9250, magnitude 0, input signal power 3.82134e+07
+I0525 14:38:31.071956  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.071990  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.071997  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.072064  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 12 (Block IIR-M), Signal 1C
+I0525 14:38:31.072082  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.072090  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.072098  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.072108  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.072115  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.072124  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.072131  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.075532  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 13 (Block IIR)
+I0525 14:38:31.075544  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 13 (Block IIR)
+I0525 14:38:31.075549  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 13 (Block IIR)
+I0525 14:38:31.075577  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 13 (Block IIR), Signal 1C
+I0525 14:38:31.075589  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 13 (Block IIR)
+I0525 14:38:31.075593  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.075598  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.075604  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.084663  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 13 ,sample stamp: 431316441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.088971  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 13, sample_stamp 431316441, test statistics value 23.8247, test statistics threshold 40.6733, code phase 3230, doppler 250, magnitude 0, input signal power 3.87127e+07
+I0525 14:38:31.089056  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.089066  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.089074  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.089123  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 13 (Block IIR), Signal 1C
+I0525 14:38:31.089135  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.089141  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.089148  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.089154  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.089159  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.089164  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.089170  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.094075  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 14 (Block IIR)
+I0525 14:38:31.094096  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 14 (Block IIR)
+I0525 14:38:31.094103  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 14 (Block IIR)
+I0525 14:38:31.094147  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 14 (Block IIR), Signal 1C
+I0525 14:38:31.094166  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 14 (Block IIR)
+I0525 14:38:31.094200  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.094208  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.094216  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.098443  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 14 ,sample stamp: 431388441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.107429  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 14, sample_stamp 431388441, test statistics value 25.3477, test statistics threshold 40.6733, code phase 1682, doppler 0, magnitude 0, input signal power 3.88891e+07
+I0525 14:38:31.107511  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.107520  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.107529  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.107585  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 14 (Block IIR), Signal 1C
+I0525 14:38:31.107601  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.107610  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.107620  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.107630  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.107637  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.107647  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.107656  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.109997  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 15 (Block IIR-M)
+I0525 14:38:31.110006  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 15 (Block IIR-M)
+I0525 14:38:31.110011  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 15 (Block IIR-M)
+I0525 14:38:31.110039  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 15 (Block IIR-M), Signal 1C
+I0525 14:38:31.110052  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 15 (Block IIR-M)
+I0525 14:38:31.110056  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.110074  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.110080  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.115556  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 15 ,sample stamp: 431464441, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.123850  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 15, sample_stamp 431464441, test statistics value 22.0106, test statistics threshold 40.6733, code phase 2358, doppler 3750, magnitude 0, input signal power 3.92614e+07
+I0525 14:38:31.126175  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.127543  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.127562  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.127624  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 15 (Block IIR-M), Signal 1C
+I0525 14:38:31.127643  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.127653  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.127663  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.127672  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.127682  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.127691  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.127701  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.131882  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 16 (Block IIR)
+I0525 14:38:31.131902  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 16 (Block IIR)
+I0525 14:38:31.131929  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 16 (Block IIR)
+I0525 14:38:31.131968  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 16 (Block IIR), Signal 1C
+I0525 14:38:31.131985  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 16 (Block IIR)
+I0525 14:38:31.131992  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.131997  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.132005  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.152921  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 16 ,sample stamp: 431640887, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.161036  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 16, sample_stamp 431640887, test statistics value 29.398, test statistics threshold 40.6733, code phase 559, doppler 2500, magnitude 0, input signal power 3.61586e+07
+I0525 14:38:31.164849  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.164860  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.164875  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.164935  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 16 (Block IIR), Signal 1C
+I0525 14:38:31.164950  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.164960  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.164969  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.164978  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.164986  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.164995  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.165004  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.169862  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 18 (Block IIR)
+I0525 14:38:31.169880  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 18 (Block IIR)
+I0525 14:38:31.169884  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 18 (Block IIR)
+I0525 14:38:31.169911  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 18 (Block IIR), Signal 1C
+I0525 14:38:31.169924  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 18 (Block IIR)
+I0525 14:38:31.169929  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.169932  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.169939  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.174767  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 18 ,sample stamp: 431740440, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.184684  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 18, sample_stamp 431740440, test statistics value 24.8682, test statistics threshold 40.6733, code phase 1568, doppler 6750, magnitude 0, input signal power 3.71578e+07
+I0525 14:38:31.185256  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.185268  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.185276  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.185335  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 18 (Block IIR), Signal 1C
+I0525 14:38:31.185351  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.185361  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.185370  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.185379  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.185389  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.185396  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.185431  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.192185  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 20 (Block IIR)
+I0525 14:38:31.192203  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 20 (Block IIR)
+I0525 14:38:31.192209  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 20 (Block IIR)
+I0525 14:38:31.192237  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 20 (Block IIR), Signal 1C
+I0525 14:38:31.192250  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 20 (Block IIR)
+I0525 14:38:31.192255  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.192260  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.192266  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.195108  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 20 ,sample stamp: 431832440, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.201923  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 20, sample_stamp 431832440, test statistics value 25.1745, test statistics threshold 40.6733, code phase 2707, doppler -4000, magnitude 0, input signal power 3.89329e+07
+I0525 14:38:31.210108  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.210114  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.210131  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.210189  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 20 (Block IIR), Signal 1C
+I0525 14:38:31.210204  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.210213  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.210222  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.210229  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.210237  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.210245  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.210254  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.217463  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 21 (Block IIR)
+I0525 14:38:31.217481  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 21 (Block IIR)
+I0525 14:38:31.217486  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 21 (Block IIR)
+I0525 14:38:31.217515  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 21 (Block IIR), Signal 1C
+I0525 14:38:31.217530  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 21 (Block IIR)
+I0525 14:38:31.217535  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.217538  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.217545  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.222293  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 21 ,sample stamp: 431992440, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.227763  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 21, sample_stamp 431992440, test statistics value 25.5467, test statistics threshold 40.6733, code phase 645, doppler -1500, magnitude 0, input signal power 3.73719e+07
+I0525 14:38:31.227828  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.227843  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.227851  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.227913  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 21 (Block IIR), Signal 1C
+I0525 14:38:31.227929  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.227939  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.227974  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.227984  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.227993  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.228001  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.228010  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.231271  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 23 (Block IIR)
+I0525 14:38:31.231287  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 23 (Block IIR)
+I0525 14:38:31.231292  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 23 (Block IIR)
+I0525 14:38:31.231319  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 23 (Block IIR), Signal 1C
+I0525 14:38:31.231349  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 23 (Block IIR)
+I0525 14:38:31.231354  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.231359  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.231365  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.232467  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 23 ,sample stamp: 432020440, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.241434  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 23, sample_stamp 432020440, test statistics value 22.9185, test statistics threshold 40.6733, code phase 3173, doppler 4000, magnitude 0, input signal power 4.06749e+07
+I0525 14:38:31.241513  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.241534  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.241544  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.241598  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 23 (Block IIR), Signal 1C
+I0525 14:38:31.241621  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.241631  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.241639  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.241648  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.241657  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.241667  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.241674  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.246256  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 24 (Block IIF)
+I0525 14:38:31.246271  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 24 (Block IIF)
+I0525 14:38:31.246276  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 24 (Block IIF)
+I0525 14:38:31.246304  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 24 (Block IIF), Signal 1C
+I0525 14:38:31.246317  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 24 (Block IIF)
+I0525 14:38:31.246322  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.246326  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.246332  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.254885  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 24 ,sample stamp: 432112440, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.260056  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 24, sample_stamp 432112440, test statistics value 29.945, test statistics threshold 40.6733, code phase 791, doppler 2750, magnitude 0, input signal power 3.97003e+07
+I0525 14:38:31.260126  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.260152  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.260203  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.260267  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 24 (Block IIF), Signal 1C
+I0525 14:38:31.260284  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.260293  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.260303  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.260311  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.260320  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.260329  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.260337  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.270691  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 25 (Block IIF)
+I0525 14:38:31.270710  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 25 (Block IIF)
+I0525 14:38:31.270715  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 25 (Block IIF)
+I0525 14:38:31.270752  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 25 (Block IIF), Signal 1C
+I0525 14:38:31.270766  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 25 (Block IIF)
+I0525 14:38:31.270771  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.270776  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.270781  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
+I0525 14:38:31.276403  6343 pcps_acquisition.cc:640] Channel: 4 , doing acquisition of satellite: G 25 ,sample stamp: 432214440, threshold: 40.6733, doppler_max: 10000, doppler_step: 250, use_CFAR_algorithm_flag: true
+I0525 14:38:31.280155  6343 pcps_acquisition.cc:394] negative acquisition, satellite G 25, sample_stamp 432214440, test statistics value 29.7168, test statistics threshold 40.6733, code phase 1173, doppler 5500, magnitude 0, input signal power 3.73772e+07
+I0525 14:38:31.281762  6322 channel_fsm.cc:131] CH = 4. Ev failed acquisition no repeat
+I0525 14:38:31.281841  6301 control_thread.cc:240] New channel event rx from ch id: 4 what: 0
+I0525 14:38:31.281849  6301 gnss_flowgraph.cc:1283] Received 0 from 4
+I0525 14:38:31.281908  6301 gnss_flowgraph.cc:1301] Channel 4 ACQ FAILED satellite GPS PRN 25 (Block IIF), Signal 1C
+I0525 14:38:31.281930  6301 gnss_flowgraph.cc:1252] Channel 5 in state 2
+I0525 14:38:31.281940  6301 gnss_flowgraph.cc:1252] Channel 6 in state 2
+I0525 14:38:31.281949  6301 gnss_flowgraph.cc:1252] Channel 7 in state 2
+I0525 14:38:31.281958  6301 gnss_flowgraph.cc:1252] Channel 0 in state 2
+I0525 14:38:31.281967  6301 gnss_flowgraph.cc:1252] Channel 1 in state 2
+I0525 14:38:31.281976  6301 gnss_flowgraph.cc:1252] Channel 2 in state 2
+I0525 14:38:31.281985  6301 gnss_flowgraph.cc:1252] Channel 3 in state 2
+I0525 14:38:31.288615  6301 gps_l1_ca_telemetry_decoder_gs.cc:164] Setting decoder Finite State Machine to satellite GPS PRN 26 (Block IIF)
+I0525 14:38:31.288633  6301 gps_l1_ca_telemetry_decoder_gs.cc:166] Navigation Satellite set to GPS PRN 26 (Block IIF)
+I0525 14:38:31.288638  6301 gps_l1_ca_telemetry_decoder.cc:57] TELEMETRY DECODER: satellite set to GPS PRN 26 (Block IIF)
+I0525 14:38:31.288671  6301 gnss_flowgraph.cc:1223] Channel 4 Starting acquisition GPS PRN 26 (Block IIF), Signal 1C
+I0525 14:38:31.288687  6301 gps_l1_ca_telemetry_decoder_gs.cc:313] Telemetry decoder reset for satellite GPS PRN 26 (Block IIF)
+I0525 14:38:31.288693  6301 channel_fsm.cc:89] CH = 4. Ev start acquisition
+I0525 14:38:31.288698  6301 channel.cc:248] Channel start_acquisition()
+I0525 14:38:31.288705  6301 gnss_flowgraph.cc:1252] Channel 4 in state 1
